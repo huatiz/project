@@ -21,5 +21,4 @@ function add(a, b) {
 
 module.exports = {
     toggle: toggle,
-    add: add
 };

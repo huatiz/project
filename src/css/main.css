@@ -1,6 +1,5 @@
 body {
     background-color: #f8f8f8;
-    font-family: 'Noto Sans TC', sans-serif;
 }
 
 a:hover {
@@ -14,6 +13,13 @@ li {
 @font-face {
     font-family: "Roboto";
     src: url("../font/Roboto-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NotoSansTC";
+    src: url("../font/NotoSansTC-Medium.otf") format("opentype");
+    font-weight: 300;
 }
 
 @media screen and (max-width: 480px) {
@@ -86,7 +92,15 @@ a.text-black:hover {
 
 .fs-en {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+}
+
+.fs-noto {
+    font-family: "NotoSansTC", sans-serif;
+}
+
+.fsn-noto {
+    font-family: "NotoSansTC", sans-serif;
+    font-weight: 300;
 }
 
 .lang {
@@ -255,4 +269,8 @@ input:checked+.slider:before {
 
 .sticky-top {
     top: 8px;
+}
+
+a.text-hover-none:hover {
+    color: #333;
 }

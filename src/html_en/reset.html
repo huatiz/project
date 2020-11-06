@@ -19,9 +19,9 @@
             <input type="checkbox" id="reset" checked>
             <span class="slider round position-absolute"></span>
         </label>
-        <span class="lang position-relative">English</span>
+        <span class="lang position-relative">EN</span>
     </div>
-    <div class="login wrapper">
+    <div class="login wrapper fs-noto">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="col-12 col-md-6 col-lg-6 wrapper__border bg-white my-5 pb-5">
@@ -30,11 +30,11 @@
                         <form>
                             <div class="form-group">
                                 <label for="passwd">Password</label>
-                                <input type="password" class="form-control bg-gray" id="passwd">
+                                <input type="password" class="form-control bg-gray" id="passwd" name="passwd" required>
                             </div>
                             <div class="form-group">
-                                <label for="passwd_confirm">Password</label>
-                                <input type="password" class="form-control bg-gray" id="passwd_confirm">
+                                <label for="passwd_confirm">Password Again</label>
+                                <input type="password" class="form-control bg-gray" id="passwd_confirm" name="passwd_confirm" required>
                             </div>
                             <button type="submit" class="btn wrapper_btn w-100 bg-red text-white mt-5">Reset Password</button>
                         </form>
