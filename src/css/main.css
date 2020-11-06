@@ -35,6 +35,10 @@ li {
     }
 }
 
+.mb-6 {
+    margin-bottom: 48px;
+}
+
 .wrapper .items {
     padding: 10% 7% 6%;
 }
@@ -91,13 +95,19 @@ a.text-black:hover {
 }
 
 .lang-switch {
+    position: absolute;
     top: 15px;
     right: 25px;
 }
 
 @media screen and (max-width: 768px) {
-    .lang-switch {
-        display: none;
+    .lang-switch-sm {
+        position: static;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .navbar {
+        margin-bottom: 16px;
     }
 }
 
