@@ -19,7 +19,7 @@ li {
 @font-face {
     font-family: "NotoSansTC";
     src: url("../font/NotoSansTC-Medium.otf") format("opentype");
-    font-weight: 300;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 480px) {
@@ -96,11 +96,6 @@ a.text-black:hover {
 
 .fs-noto {
     font-family: "NotoSansTC", sans-serif;
-}
-
-.fsn-noto {
-    font-family: "NotoSansTC", sans-serif;
-    font-weight: 300;
 }
 
 .lang {
