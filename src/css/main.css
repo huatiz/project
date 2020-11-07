@@ -278,6 +278,11 @@ a.text-hover-none:hover {
     flex-grow: 0;
 }
 
+.lock {
+    font-size: 150px;
+    line-height: 150px;
+}
+
 .input-box {
     border-radius: 10px;
 }
@@ -289,7 +294,8 @@ a.text-hover-none:hover {
 }
 
 @media screen and (max-width: 767px) {
-    .role-icon {
+    .role-icon,
+    .lock {
         display: none;
     }
 }
