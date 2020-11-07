@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <title>編輯個人資料</title>
+    <title>Edit Personal Information</title>
 </head>
 
 <body>
-    <div class="container px-0">
+    <div class="container px-0 fs-noto">
         <header class="pt-4 mx-2">
-            <a href="#" class="d-block mb-3"><img src="../logo.png" alt="康橋國際學校幼兒園（林口校區）耗材管理系統" class="header-logo d-block m-auto"></a>
+            <a href="./index.html" class="text-black d-block text-center text-hover-none mb-3 fs-en">
+                <h3 class="h6">Kang Chiao International School Preschool (Linkou Campus)</h3>
+                <h1>Supplies Management System</h1>
+            </a>
         </header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 main-nav sticky-top mb-6 admin">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,30 +32,30 @@
             <div class="collapse navbar-collapse" id="navbarTogglerNav">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">耗材檢視</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Supplies Checking</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item py-2" href="#">耗材剩餘</a>
-                            <a class="dropdown-item py-2" href="#">各班申請</a>
-                            <a class="dropdown-item py-2" href="#">老師申請</a>
-                            <a class="dropdown-item py-2" href="#">活動剩餘</a>
-                            <a class="dropdown-item py-2" href="#">進貨明細</a>
-                            <a class="dropdown-item py-2" href="#">借用明細</a>
+                            <a class="dropdown-item py-2" href="remaining.html">Remaining Supplies</a>
+                            <a class="dropdown-item py-2" href="class.html">Class Applying</a>
+                            <a class="dropdown-item py-2" href="teacher.html">Teacher Applying</a>
+                            <a class="dropdown-item py-2" href="activity.html">Activities Consumption</a>
+                            <a class="dropdown-item py-2" href="purchase.html">Purchase Details</a>
+                            <a class="dropdown-item py-2" href="applying.html">Applying Details</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">耗材管理</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Supplies Management</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item py-2" href="createsupply.html">新增耗材</a>
-                            <a class="dropdown-item py-2" href="modifysupply.html">修改耗材</a>
-                            <a class="dropdown-item py-2" href="deletesupply.html">刪除耗材</a>
+                            <a class="dropdown-item py-2" href="createsupply.html">Create Supply</a>
+                            <a class="dropdown-item py-2" href="modifysupply.html">Modify Supply</a>
+                            <a class="dropdown-item py-2" href="deletesupply.html">Delete Supply</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">人員管理</a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">User Management</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item py-2" href="createuser.html">新增使用者</a>
-                            <a class="dropdown-item py-2" href="modifyuser.html">修改使用者</a>
-                            <a class="dropdown-item py-2" href="deleteuser.html">刪除使用者</a>
+                            <a class="dropdown-item py-2" href="createuser.html">Create User</a>
+                            <a class="dropdown-item py-2" href="modifyuser.html">Modify User</a>
+                            <a class="dropdown-item py-2" href="deleteuser.html">Delete User</a>
                         </div>
                     </li>
                 </ul>
@@ -60,14 +63,14 @@
             <div class="collapse navbar-collapse user-list" id="navbarTogglerUser">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="admin_infoediter.html">編輯個人資料</a>
+                        <a class="nav-link" href="admin_infoediter.html">Edit Personal Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">修改密碼</a>
+                        <a class="nav-link" href="#">Change Password</a>
                     </li>
                     <div class="dropdown-divider"></div>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> 登出</a>
+                        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Log out</a>
                     </li>
                 </ul>
             </div>
@@ -75,10 +78,10 @@
             <div class="nav-item dropdown user-list-lg">
                 <button class="user-btn bg-red text-white rounded-circle user-btn-lg" data-toggle="dropdown"><i class="fas fa-user"></i></button>
                 <div class="dropdown-menu">
-                    <a href="admin_infoediter.html" class="dropdown-item py-2">修改個人資料</a>
-                    <a href="#" class="dropdown-item py-2">修改密碼</a>
+                    <a href="admin_infoediter.html" class="dropdown-item py-2">Edit Personal Information</a>
+                    <a href="#" class="dropdown-item py-2">Change Password</a>
                     <div class="dropdown-divider"></div>
-                    <a href="#" class="dropdown-item py-2 border_top"><i class="fas fa-sign-out-alt"></i> 登出</a>
+                    <a href="#" class="dropdown-item py-2 border_top"><i class="fas fa-sign-out-alt"></i> Log out</a>
                 </div>
             </div>
         </nav>
@@ -86,7 +89,7 @@
         <div class="lang-switch lang-switch-sm">
             <span class="lang position-relative">中文</span>
             <label class="switch mx-2 position-relative d-inline-block" for="onoff_admin">
-                <input type="checkbox" id="onoff_admin">
+                <input type="checkbox" id="onoff_admin" checked>
                 <span class="slider round position-absolute"></span>
             </label>
             <span class="lang position-relative">EN</span>
@@ -94,31 +97,31 @@
 
         <div class="row justify-content-center">
             <div class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
-                <h3 class="text-gray mb-5"><span class="h1">編輯</span>個人資料</h3>
+                <h3 class="text-gray mb-5 fs-en"><span class="h1">Edit </span>Personal Information</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
                         <form action="">
-                            <input class="input-box form-control w-50-md mb-3" type="text" placeholder="姓名" id="name" name="name" required>
+                            <input class="input-box form-control w-50-md mb-3" type="text" placeholder="Name" id="name" name="name" required>
                             <div class="d-md-flex input-inline">
-                                <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" name="account" required>
+                                <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="Account" id="account" name="account" required>
                                 <select class="input-box form-control w-50-md mb-3" id="class" name="class">
-                                    <option value="0">班級</option>
-                                    <option value="1">小企鵝班</option>
-                                    <option value="2">小松鼠班</option>
-                                    <option value="3">小浣熊班</option>
-                                    <option value="4">中海豚班</option>
-                                    <option value="5">中花鹿班</option>
-                                    <option value="6">中綿羊班</option>
-                                    <option value="7">中無尾熊班</option>
-                                    <option value="8">大袋鼠班</option>
-                                    <option value="9">大大象班</option>
-                                    <option value="10">大犀牛班</option>
-                                    <option value="11">大魟魚班</option>
-                                    <option value="12">大灰狼班</option>
-                                    <option value="13">無</option>
+                                    <option value="0">Class</option>
+                                    <option value="1">Penguin</option>
+                                    <option value="2">Squirrel</option>
+                                    <option value="3">Raccoon</option>
+                                    <option value="4">Dolphin</option>
+                                    <option value="5">Deer</option>
+                                    <option value="6">Sheep</option>
+                                    <option value="7">Koala</option>
+                                    <option value="8">Kangaroo</option>
+                                    <option value="9">Elephant</option>
+                                    <option value="10">Rhino</option>
+                                    <option value="11">Manta Ray</option>
+                                    <option value="12">Wolf</option>
+                                    <option value="13">None</option>
                                 </select>
                             </div>
-                            <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" name="mail" required>
+                            <input class="input-box form-control mb-3" type="email" placeholder="Email" id="mail" name="mail" required>
                         </form>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
@@ -127,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit" id="submit">完成</button>
+                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit" id="submit">Submit</button>
             </div>
         </div>
     </div>

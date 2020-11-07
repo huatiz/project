@@ -302,3 +302,7 @@ a.text-hover-none:hover {
         justify-content: space-between;
     }
 }
+
+.flex-basis-auto {
+    flex-basis: auto;
+}
