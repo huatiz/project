@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <title>新增耗材</title>
+    <title>新增品項</title>
 </head>
 
 <body>
@@ -93,38 +93,98 @@
         </div>
 
         <div class="row justify-content-center pb-5">
-            <div class="col px-5 py-4 py-md-5 col-12 col-md-8 col-lg-6 wrapper__border bg-white">
-                <h3 class="text-gray mb-5 text-md-center"><span class="h1">新增</span>耗材</h3>
+            <div class="col px-5 py-4 py-md-5 col-12 col-md-9 col-lg-7 wrapper__border bg-white">
+                <h3 class="text-gray mb-5 text-md-center"><span class="h1">新增</span>品項</h3>
                 <form action="">
-                    <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0">主分類</option>
-                        </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0">次分類</option>
-                        </select>
-                        <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0">品名</option>
-                        </select>
-                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0">規格</option>
-                        </select>
-                        <select name="brand" id="brand" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0">廠商</option>
-                        </select>
-                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0">顏色</option>
-                            <option value="1">無</option>
-                        </select>
+                    <div class="form-row mb-4">
+                        <div class="col-md-6 mb-4">
+                            <select name="main-category-select" id="main-category-select" class="input-box form-control">
+                                <option>主分類</option>
+                                <option value="0">其他</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <select name="sub-category-select" id="sub-category-select" class="input-box form-control">
+                                <option>次分類</option>
+                                <option value="0">其他</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-md-center mb-4">
-                        <input type="number" min="1" name="increase_quantity" id="increase_quantity" placeholder="新增數量" class="input-box form-control col-10 col-md-5 mr-2" required>
-                        <label class="col-form-label fs-noto unit">單位</label>
+                    <div class="mb-4 hide">
+                        <h5 class="mb-3 require">主分類：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="main-category-ch" id="main-category-ch" placeholder="中文" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="main-category-en" id="main-category-en" placeholder="英文" class="input-box form-control" required>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-center my-5">
-                        <a href="createitem.html" class="text-blue">找不到想要的品項嗎？</a>
-                    </p>
-                    <button type="submit" class="btn wrapper_btn w-100 bg-red text-white">提交</button>
+                    <div class="mb-4 hide">
+                        <h5 class="mb-3 require">次分類：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="sub-category-ch" id="sub-category-ch" placeholder="中文" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="sub-category-en" id="sub-category-en" placeholder="英文" class="input-box form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="mb-3 require">品名：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="item-ch" id="item-ch" placeholder="中文" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="item-en" id="item-en" placeholder="英文" class="input-box form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="mb-3">顏色：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="color-ch" id="color-ch" placeholder="中文" class="input-box form-control">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="color-en" id="color-en" placeholder="英文" class="input-box form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="mb-3 require">廠商：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="brand-ch" id="brand-ch" placeholder="中文" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="brand-en" id="brand-en" placeholder="英文" class="input-box form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-3 require">其他：</h5>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="specification" id="specification" placeholder="規格" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="unit" id="unit" placeholder="單位" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="number" min="1" name="quantity" id="quantity" placeholder="數量" class="input-box form-control" required>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="number" min="1" name="applying_limit" id="applying_limit" placeholder="申請上限" class="input-box form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <button type="submit" class="btn wrapper_btn w-100 bg-red text-white">提交</button>
+                    </div>
                 </form>
             </div>
         </div>

@@ -106,10 +106,6 @@ a.text-black:hover {
     font-family: "NotoSansTC", sans-serif;
 }
 
-.py-6 {
-    padding-bottom: 80px;
-}
-
 .lang {
     top: 4px;
     font-size: 20px;
@@ -315,4 +311,20 @@ a.text-hover-none:hover {
 
 .flex-basis-auto {
     flex-basis: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.require {
+    position: relative;
+}
+
+.require::before {
+    content: '*';
+    position: absolute;
+    left: -15px;
+    top: 3px;
+    color: #df3232;
 }
