@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <title>修改密碼</title>
+    <title>新增耗材</title>
 </head>
 
 <body>
@@ -92,25 +92,38 @@
             <span class="lang position-relative">EN</span>
         </div>
 
-        <div class="row justify-content-center">
-            <form action="" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
-                <h3 class="text-gray mb-5"><span class="h1">修改</span>密碼</h3>
-                <div class="row justify-content-between mb-4">
-                    <div class="col-12 col-md-6">
-                        <input class="input-box form-control mb-3" type="password" placeholder="舊密碼" id="oldPassword" name="oldPassword" required>
-                        <input class="input-box form-control mb-3" type="password" placeholder="新密碼" id="newPassword" name="newPassword" required>
-                        <input class="input-box form-control mb-3" type="password" placeholder="再次確認" id="passwordAgain" name="passwordAgain" required>
+        <div class="row justify-content-center pb-5">
+            <div class="col px-5 py-4 py-md-5 col-12 col-md-8 col-lg-6 wrapper__border bg-white">
+                <h3 class="text-gray mb-5 text-md-center"><span class="h1">新增</span>耗材</h3>
+                <form action="">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <select name="" id="" class="col-12 col-md-5 input-box form-control mb-4">
+                                <option value="0">主分類</option>
+                        </select>
+                        <select name="" id="" class="col-12 col-md-5 input-box form-control mb-4">
+                                <option value="0">次分類</option>
+                        </select>
+                        <select name="" id="" class="col-12 col-md-5 input-box form-control mb-4">
+                            <option value="0">品名</option>
+                        </select>
+                        <select name="" id="" class="col-12 col-md-5 input-box form-control mb-4">
+                            <option value="0">規格</option>
+                        </select>
                     </div>
-                    <div class="col-md-6 row justify-content-center align-items-center p-0">
-                        <div class="lock">
-                            <i class="fas fa-lock"></i>
-                        </div>
+                    <div class="d-flex justify-content-md-center mb-4">
+                        <input type="number" min="1" name="" id="" placeholder="新增數量" class="input-box form-control col-10 col-md-5 mr-2" required>
+                        <label class="col-form-label fs-noto" id="unit">單位</label>
                     </div>
-                </div>
-                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit" id="submit">完成</button>
-            </form>
+                    <p class="text-center my-5">
+                        <a href="#" class="text-blue">找不到想要的品項嗎？</a>
+                    </p>
+                    <button type="submit" class="btn wrapper_btn w-100 bg-red text-white">提交</button>
+                </form>
+            </div>
         </div>
     </div>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

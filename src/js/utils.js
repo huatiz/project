@@ -15,10 +15,6 @@ function toggle(id, url1, url2) {
     return;
 }
 
-function add(a, b) {
-    return a + b;
-}
-
 module.exports = {
     toggle: toggle,
 };

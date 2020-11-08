@@ -106,6 +106,10 @@ a.text-black:hover {
     font-family: "NotoSansTC", sans-serif;
 }
 
+.py-6 {
+    padding-bottom: 80px;
+}
+
 .lang {
     top: 4px;
     font-size: 20px;
