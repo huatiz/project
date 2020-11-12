@@ -31,12 +31,10 @@
                     <li class="nav-item dropdown mr-5">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">耗材檢視</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item py-2" href="#">耗材剩餘</a>
-                            <a class="dropdown-item py-2" href="#">各班申請</a>
-                            <a class="dropdown-item py-2" href="#">老師申請</a>
-                            <a class="dropdown-item py-2" href="#">活動剩餘</a>
-                            <a class="dropdown-item py-2" href="#">進貨明細</a>
-                            <a class="dropdown-item py-2" href="#">借用明細</a>
+                            <a class="dropdown-item py-2" href="remaining.html">耗材剩餘</a>
+                            <a class="dropdown-item py-2" href="condition.html">申請檢視</a>
+                            <a class="dropdown-item py-2" href="applying.html">借用明細</a>
+                            <a class="dropdown-item py-2" href="purchase.html">進貨明細</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mr-5">
@@ -107,7 +105,7 @@
                         <div class="d-md-flex input-inline">
                             <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" name="account" required>
                             <select class="input-box form-control w-50-md mb-3" id="class" name="class">
-                                    <option value="0">班級</option>
+                                    <option>班級</option>
                                     <option value="1">小企鵝班</option>
                                     <option value="2">小松鼠班</option>
                                     <option value="3">小浣熊班</option>
@@ -125,7 +123,7 @@
                         <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" name="mail" required>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
-                        <div class="role-icon bg-lgray text-white rounded-circle text-center align-self-center">
+                        <div class="role-icon text-white rounded-circle text-center align-self-center">
                             <i class="fas fa-user"></i>
                         </div>
                     </div>
@@ -135,12 +133,16 @@
         </div>
     </div>
 
+    <div class="h1">1.ratio的name都是role是可的嗎
+    </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="../../dist/admin_bound.js"></script>
+    <script src="../js/createuser.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

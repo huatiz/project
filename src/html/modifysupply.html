@@ -32,11 +32,9 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">耗材檢視</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item py-2" href="remaining">耗材剩餘</a>
-                            <a class="dropdown-item py-2" href="class.html">各班申請</a>
-                            <a class="dropdown-item py-2" href="teacher.html">老師申請</a>
-                            <a class="dropdown-item py-2" href="activity.html">活動剩餘</a>
-                            <a class="dropdown-item py-2" href="purchase.html">進貨明細</a>
+                            <a class="dropdown-item py-2" href="condition.html">申請檢視</a>
                             <a class="dropdown-item py-2" href="applying.html">借用明細</a>
+                            <a class="dropdown-item py-2" href="purchase.html">進貨明細</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown mr-5">
@@ -106,11 +104,9 @@
                         <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
                             <option value="0">品名</option>
                         </select>
+                        <div name="brand" id="brand" class="col-12 col-md-5 input-box form-control mb-4"><span class="pl-1">廠商</span></div>
                         <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
                             <option value="0">規格</option>
-                        </select>
-                        <select name="brand" id="brand" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0">廠商</option>
                         </select>
                         <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
                             <option value="0">顏色</option>
@@ -118,12 +114,12 @@
                         </select>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
-                        <label class="col-form-label">修改數量：</label>
-                        <input type="number" min="0" name="modify_quantity" id="modify_quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
+                        <label class="col-form-label">數量：</label>
+                        <input type="number" min="0" name="modify_quantity" id="modify_quantity" class="input-box form-control col-8 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
-                        <label class="col-form-label">申請上限：</label>
+                        <label class="col-form-label">預設申請上限：</label>
                         <input type="number" min="0" name="applying_limit" id="applying_limit" class="input-box form-control col-7 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
