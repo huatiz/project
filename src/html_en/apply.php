@@ -79,7 +79,7 @@
                                 <option value="3">Activity layouts</option>
                                 <option value="4">Public area layouts</option>
                                 <option value="5">Restival layouts</option>
-                                <option value="6">Study area layouts</option>
+                                <option value="6">Study area</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
