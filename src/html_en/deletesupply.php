@@ -22,22 +22,22 @@
                 <h3 class="text-gray mb-5 text-md-center fs-en"><span class="h1">Delete </span>Supply</h3>
                 <form action="" class="pb-md-5">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>Main Category</option>
+                        <select name="main-category" id="main-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>Main Category</option>
                         </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>Sub Category</option>
+                        <select name="sub-category" id="sub-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>Sub Category</option>
                         </select>
                         <div class="col-12 px-0">
-                            <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>Item</option>
+                            <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>Item</option>
                             </select>
                         </div>
-                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>Specification</option>
+                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>Specification</option>
                         </select>
-                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>Color</option>
+                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>Color</option>
                             <option value="1">None</option>
                         </select>
                     </div>

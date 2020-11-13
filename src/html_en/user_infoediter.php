@@ -19,16 +19,16 @@
         <?php require 'component/lang.php';?>
 
         <div class="row justify-content-center">
-            <form action="" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
+            <form id="submit" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
                 <h3 class="text-gray mb-5 fs-en"><span class="h1">Edit </span>Personal Information</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
-                        <div class="input-box form-control w-50-md mb-3 mr-2" id="name"></div>
+                        <input class="input-box form-control w-50-md mb-3 mr-2" id="name" placeholder="Name" readonly>
                         <div class="d-md-flex input-inline">
-                            <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="Account" id="account" name="account" required>
-                            <div class="input-box form-control w-50-md mb-3 mr-2" id="class"></div>
+                            <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="Account" id="account" required>
+                            <input class="input-box form-control w-50-md mb-3 mr-2" id="class" placeholder="Class" readonly>
                         </div>
-                        <input class="input-box form-control mb-3" type="email" placeholder="Email" id="mail" name="mail" required>
+                        <input class="input-box form-control mb-3" type="email" placeholder="Email" id="mail" required>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon bg-lgray text-white rounded-circle text-center align-self-center">

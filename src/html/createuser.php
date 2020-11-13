@@ -32,8 +32,8 @@
                         </div>
                         <div class="d-md-flex input-inline">
                             <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" required>
-                            <select class="input-box form-control w-50-md mb-3" id="class">
-                                <option value="0" selected disabled hidden>班級</option>
+                            <select class="input-box form-control w-50-md mb-3" id="class" required>
+                                <option value="" selected disabled hidden>班級</option>
                                 <optgroup label="小班">
                                     <option value="1">小企鵝班</option>
                                     <option value="2">小松鼠班</option>

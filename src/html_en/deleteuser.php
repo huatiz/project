@@ -18,13 +18,13 @@
         <?php require 'component/header_admin.php';?>
         <?php require 'component/lang.php';?>
         <div class="row justify-content-center">
-            <form action="" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 wrapper__border bg-white">
+            <form id="submit" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 wrapper__border bg-white">
                 <h3 class="text-gray mb-5 fs-en"><span class="h1">Delete </span>User</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
                         <div class="d-md-flex input-inline">
-                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="role" id="role">
-                                <option value="0" selected disabled hidden>User</option>
+                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" id="role" required>
+                                <option value="" selected disabled hidden>User</option>
                                 <optgroup class="bg-lgray text-white" label="Normal User">
                                 </optgroup> 
                                 <optgroup class="bg-red text-white" label="Administator">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit" id="submit">Submit</button>
+                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit">Submit</button>
             </form>
         </div>
     </div>

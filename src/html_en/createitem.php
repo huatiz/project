@@ -21,29 +21,29 @@
         <div class="row justify-content-center pb-5">
             <div class="col px-5 py-4 py-md-5 col-12 col-md-9 col-lg-7 wrapper__border bg-white">
                 <h3 class="text-gray mb-5 text-md-center fs-en"><span class="h1">Create </span>Item</h3>
-                <form action="">
+                <form id="submit">
                     <div class="form-row mb-4">
                         <div class="col-md-6 mb-4">
-                            <select name="main-category-select" id="main-category-select" class="input-box form-control">
-                                <option value="0" selected disabled hidden>Main Category</option>
+                            <select id="main-category-select" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>Main Category</option>
                                 <option value="1">Other</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <select name="sub-category-select" id="sub-category-select" class="input-box form-control" disabled>
-                                <option value="0" selected disabled hidden>Sub Category</option>
+                            <select id="sub-category-select" class="input-box form-control" disabled required>
+                                <option value="" selected disabled hidden>Sub Category</option>
                                 <option value="1">Other</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <select name="item-select" id="item-select" class="input-box form-control" disabled>
-                                <option value="0" selected disabled hidden>Item</option>
+                            <select id="item-select" class="input-box form-control" disabled required>
+                                <option value="" selected disabled hidden>Item</option>
                                 <option value="1">Other</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <select name="color-select" id="color-select" class="input-box form-control">
-                                <option value="0" selected disabled hidden>Color</option>
+                            <select id="color-select" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>Color</option>
                                 <option value="1">None</option>
                                 <option value="2">Other</option>
                             </select>
@@ -53,10 +53,10 @@
                         <h5 class="mb-3 require">Main Category</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="main-category-ch" id="main-category-ch" placeholder="Chinese" class="input-box form-control" required>
+                                <input type="text" id="main-category-ch" placeholder="Chinese" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="main-category-en" id="main-category-en" placeholder="English" class="input-box form-control" required>
+                                <input type="text" id="main-category-en" placeholder="English" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
@@ -64,10 +64,10 @@
                         <h5 class="mb-3 require">Sub Category</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="sub-category-ch" id="sub-category-ch" placeholder="Chinese" class="input-box form-control" required>
+                                <input type="text" id="sub-category-ch" placeholder="Chinese" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="sub-category-en" id="sub-category-en" placeholder="English" class="input-box form-control" required>
+                                <input type="text" id="sub-category-en" placeholder="English" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
@@ -75,10 +75,10 @@
                         <h5 class="mb-3 require">Item</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="item-ch" id="item-ch" placeholder="Chinese" class="input-box form-control" required>
+                                <input type="text" id="item-ch" placeholder="Chinese" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="item-en" id="item-en" placeholder="English" class="input-box form-control" required>
+                                <input type="text" id="item-en" placeholder="English" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
@@ -86,10 +86,10 @@
                         <h5 class="mb-3 require">Color</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="color-ch" id="color-ch" placeholder="Chinese" class="input-box form-control" required>
+                                <input type="text" id="color-ch" placeholder="Chinese" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="color-en" id="color-en" placeholder="English" class="input-box form-control" required>
+                                <input type="text" id="color-en" placeholder="English" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
@@ -97,10 +97,10 @@
                         <h5 class="mb-3 require">Brand/Agent</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="brand-ch" id="brand-ch" placeholder="Chinese" class="input-box form-control" required>
+                                <input type="text" id="brand-ch" placeholder="Chinese" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="text" name="brand-en" id="brand-en" placeholder="English" class="input-box form-control" required>
+                                <input type="text" id="brand-en" placeholder="English" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
@@ -108,34 +108,34 @@
                         <h5 class="mb-3 require">Others</h5>
                         <div class="form-row">
                             <div class="col-md-6 mb-4">
-                                <select name="specification-select" id="specification-select" class="input-box form-control">
-                                    <option value="0" selected disabled hidden>Specification</option>
+                                <select id="specification-select" class="input-box form-control" required>
+                                    <option value="" selected disabled hidden>Specification</option>
                                     <option value="1">Other</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <select name="unit-select" id="unit-select" class="input-box form-control">
-                                    <option value="0" selected disabled hidden>Unit</option>
+                                <select id="unit-select" class="input-box form-control" required>
+                                    <option value="" selected disabled hidden>Unit</option>
                                     <option value="1">Other</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-4 hide hide-specification">
-                                <input type="text" name="specification" id="specification" placeholder="Specification" class="input-box form-control">
+                                <input type="text" id="specification" placeholder="Specification" class="input-box form-control">
                             </div>
                             <div class="col-md-6 mb-4 hide hide-unit">
-                                <input type="text" name="unit" id="unit" placeholder="Unit" class="input-box form-control" required>
+                                <input type="text" id="unit" placeholder="Unit" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4">
-                                <input type="number" min="1" name="quantity" id="quantity" placeholder="Quantity" class="input-box form-control" required>
+                                <input type="number" min="1" id="quantity" placeholder="Quantity" class="input-box form-control" required>
                             </div>
                             <div class="col-md-6 mb-4 hide-limit">
-                                <input type="number" min="1" name="applying_limit" id="applying_limit" placeholder="Default Applying Limit" class="input-box form-control" required>
+                                <input type="number" min="1" id="applying-limit" placeholder="Default Applying Limit" class="input-box form-control" required>
                             </div>
                         </div>
                     </div>
                     <div class="form-group form-check mt-2">
                         <input type="checkbox" class="form-check-input" id="return">
-                        <label class="form-check-label h5" for="return" name="return">Returnable Item</label>
+                        <label class="form-check-label h5" for="return">Returnable Item</label>
                     </div>
                     <div class="pt-5">
                         <button type="submit" class="btn wrapper_btn w-100 bg-red text-white">Submit</button>

@@ -22,32 +22,32 @@
                 <h3 class="text-gray mb-5 text-md-center fs-en"><span class="h1">Modify </span>Supply</h3>
                 <form action="">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>Main Category</option>
+                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>Main Category</option>
                         </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>Sub Category</option>
+                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>Sub Category</option>
                         </select>
-                        <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>Item</option>
+                        <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>Item</option>
                         </select>
-                        <div name="brand" id="brand" class="col-12 col-md-5 input-box form-control mb-4"><span class="pl-1">Brand / Agent</span></div>
-                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>Specification</option>
+                        <input id="brand" class="col-12 col-md-5 input-box form-control mb-4" placeholder="Brand / Agent" readonly>
+                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>Specification</option>
                         </select>
-                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>Color</option>
+                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>Color</option>
                             <option value="1">None</option>
                         </select>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">Quantity:</label>
-                        <input type="number" min="0" name="modify_quantity" id="modify_quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="modify-quantity" id="modify-quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">Unit</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">Default Applying Limit:</label>
-                        <input type="number" min="0" name="applying_limit" id="applying_limit" class="input-box form-control col-3 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="applying-limit" id="applying-limit" class="input-box form-control col-3 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">Unit</label>
                     </div>
                     <div class="pt-5">
