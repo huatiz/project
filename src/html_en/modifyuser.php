@@ -33,7 +33,7 @@
                             <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="Name" id="name" name="name" required>
                         </div>
                         <div class="d-md-flex input-inline">
-                            <div class="input-box form-control w-50-md mb-3 mr-2" id="account">Account</div>
+                            <input class="input-box form-control w-50-md mb-3 mr-2" id="account" placeholder="Account" readonly>
                             <select class="input-box form-control w-50-md mb-3" id="class" name="class">
                             <option value="0" selected disabled hidden>Class</option>
                             <optgroup label="Preschool">
@@ -59,7 +59,7 @@
                                     </optgroup>
                             </select>
                         </div>
-                        <div class="input-box form-control mb-3" id="mail">Email</div>
+                        <input class="input-box form-control mb-3" id="mail" placeholder="Email" readonly>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon text-white rounded-circle text-center align-self-center">

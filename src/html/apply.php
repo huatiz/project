@@ -53,11 +53,11 @@
                     <div class="form-row mb-md-4">
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">剩餘量：</h5>
-                            <div id="remaining" class="input-box form-control"></div>
+                            <input id="remaining" class="input-box form-control" readonly>
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">累積申請 / 上限：</h5>
-                            <div id="accumulation" class="input-box form-control"></div>
+                            <input id="accumulation" class="input-box form-control" readonly>
                         </div>
                     </div>
                     <div class="form-row mb-md-4">

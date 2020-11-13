@@ -32,10 +32,10 @@
                             </select>
                         </div>
                         <div class="d-md-flex input-inline">
-                            <div class="input-box form-control w-50-md mb-3 mr-2" id="account">Account</div>
-                            <div class="input-box form-control w-50-md mb-3" id="class">Class</div>
+                            <input class="input-box form-control w-50-md mb-3 mr-2" id="account" placeholder="Account" readonly>
+                            <input class="input-box form-control w-50-md mb-3" id="class" placeholder="Class" readonly>
                         </div>
-                        <div class="input-box form-control mb-3" id="mail">Email</div>
+                        <input class="input-box form-control mb-3" id="mail" placeholder="Email" readonly>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon text-white rounded-circle text-center align-self-center">
