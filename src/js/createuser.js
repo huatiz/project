@@ -19,7 +19,7 @@ user.addEventListener('change', function(e) {
 //讀取使用者資料
 submit.addEventListener('click', function(e) {
     e.preventDefault();
-    const role = "";
+    let role = "";
     if (role_admin.checked)
         role = "管理者"
     else if (role_user.checked)

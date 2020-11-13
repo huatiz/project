@@ -23,33 +23,45 @@
                 <h3 class="text-gray mb-5"><span class="h1">修改</span>使用者</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
-                        <div class="d-md-flex input-inline">
-                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="" id="">
+                        <div class="d-md-flex input-inline flex-wrap">
+                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="role" id="role">
                                 <option value="0" selected disabled hidden>使用者</option>
-                                <optgroup id="role-user" class="bg-lgray text-white" label="一般使用者">
+                                <optgroup class="bg-lgray text-white" label="一般使用者">
+                                    <option value="1">阿韞</option>
+                                    <option value="2">小白</option>
                                 </optgroup> 
-                                <optgroup id="role-admin" class="bg-red text-white" label="管理者">
+                                <optgroup class="bg-red text-white" label="管理者">
+                                    <option value="3">老林</option>
+                                    <option value="4">江南</option>
                                 </optgroup>
                             </select>
                             <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="姓名" id="name" name="name" required>
                         </div>
                         <div class="d-md-flex input-inline">
-                            <div class="input-box form-control w-50-md mb-3" id="account">帳號</div>
+                            <div class="input-box form-control w-50-md mb-3 mr-2" id="account">帳號</div>
                             <select class="input-box form-control w-50-md mb-3" id="class" name="class">
                                 <option value="0" selected disabled hidden>班級</option>
-                                <option value="1">小企鵝班</option>
-                                <option value="2">小松鼠班</option>
-                                <option value="3">小浣熊班</option>
-                                <option value="4">中海豚班</option>
-                                <option value="5">中花鹿班</option>
-                                <option value="6">中綿羊班</option>
-                                <option value="7">中無尾熊班</option>
-                                <option value="8">大袋鼠班</option>
-                                <option value="9">大大象班</option>
-                                <option value="10">大犀牛班</option>
-                                <option value="11">大魟魚班</option>
-                                <option value="12">大灰狼班</option>
-                                <option value="13">無</option>
+                                <optgroup label="小班">
+                                    <option value="1">小企鵝班</option>
+                                    <option value="2">小松鼠班</option>
+                                    <option value="3">小浣熊班</option>
+                                </optgroup>
+                                <optgroup label="中班">
+                                    <option value="4">中海豚班</option>
+                                    <option value="5">中花鹿班</option>
+                                    <option value="6">中綿羊班</option>
+                                    <option value="7">中無尾熊班</option>
+                                </optgroup>
+                                <optgroup label="大班">
+                                    <option value="8">大袋鼠班</option>
+                                    <option value="9">大大象班</option>
+                                    <option value="10">大犀牛班</option>
+                                    <option value="11">大魟魚班</option>
+                                    <option value="12">大灰狼班</option>
+                                </optgroup>
+                                <optgroup label="其他">
+                                    <option value="13">無</option>
+                                </optgroup>
                             </select>
                         </div>
                         <div class="input-box form-control mb-3" id="mail">電子郵件</div>
@@ -72,7 +84,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="../../dist/admin.js"></script>
-    <script src="../js/createuser.js"></script>
+    <script src="../js/modifyuser.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

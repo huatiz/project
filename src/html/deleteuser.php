@@ -24,17 +24,21 @@
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
                         <div class="d-md-flex input-inline">
-                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="" id="">
+                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="role" id="role">
                                 <option value="0" selected disabled hidden>使用者</option>
-                                <optgroup id="role-user" class="bg-lgray text-white" label="一般使用者">
+                                <optgroup class="bg-lgray text-white" label="一般使用者">
+                                    <option value="1">阿韞</option>
+                                    <option value="2">小白</option>
                                 </optgroup> 
-                                <optgroup id="role-admin" class="bg-red text-white" label="管理者">
+                                <optgroup class="bg-red text-white" label="管理者">
+                                    <option value="3">老林</option>
+                                    <option value="4">江南</option>
                                 </optgroup>
                             </select>
                         </div>
                         <div class="d-md-flex input-inline">
                             <div class="input-box form-control w-50-md mb-3" id="account">帳號</div>
-                            <div class="input-box form-control w-50-md mb-3" id="class">班級</div>
+                            <div class="input-box form-control w-50-md mb-3 mr-2" id="class">班級</div>
                         </div>
                         <div class="input-box form-control mb-3" id="mail">電子郵件</div>
                     </div>
@@ -56,7 +60,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="../../dist/admin.js"></script>
-    <script src="../js/createuser.js"></script>
+    <script src="../js/deleteuser.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

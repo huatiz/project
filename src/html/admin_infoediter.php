@@ -27,20 +27,28 @@
                         <div class="d-md-flex input-inline">
                             <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" name="account" required>
                             <select class="input-box form-control w-50-md mb-3" id="class" name="class">
-                                <option value="0" selected disabled hidden>班級</option>
-                                <option value="1">小企鵝班</option>
-                                <option value="2">小松鼠班</option>
-                                <option value="3">小浣熊班</option>
-                                <option value="4">中海豚班</option>
-                                <option value="5">中花鹿班</option>
-                                <option value="6">中綿羊班</option>
-                                <option value="7">中無尾熊班</option>
-                                <option value="8">大袋鼠班</option>
-                                <option value="9">大大象班</option>
-                                <option value="10">大犀牛班</option>
-                                <option value="11">大魟魚班</option>
-                                <option value="12">大灰狼班</option>
-                                <option value="13">無</option>
+                            <option value="0" selected disabled hidden>班級</option>
+                                <optgroup label="小班">
+                                    <option value="1">小企鵝班</option>
+                                    <option value="2">小松鼠班</option>
+                                    <option value="3">小浣熊班</option>
+                                </optgroup>
+                                <optgroup label="中班">
+                                    <option value="4">中海豚班</option>
+                                    <option value="5">中花鹿班</option>
+                                    <option value="6">中綿羊班</option>
+                                    <option value="7">中無尾熊班</option>
+                                </optgroup>
+                                <optgroup label="大班">
+                                    <option value="8">大袋鼠班</option>
+                                    <option value="9">大大象班</option>
+                                    <option value="10">大犀牛班</option>
+                                    <option value="11">大魟魚班</option>
+                                    <option value="12">大灰狼班</option>
+                                </optgroup>
+                                <optgroup label="其他">
+                                    <option value="13">無</option>
+                                </optgroup>
                             </select>
                         </div>
                         <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" name="mail" required>

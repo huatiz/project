@@ -22,33 +22,41 @@
                 <h3 class="text-gray mb-5 fs-en"><span class="h1">Modify </span>User</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
-                        <div class="d-md-flex input-inline">
-                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="" id="">
+                        <div class="d-md-flex input-inline flex-wrap">
+                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="role" id="role">
                                 <option value="0" selected disabled hidden>User</option>
-                                <optgroup id="role-user" class="bg-lgray text-white" label="Normal User">
+                                <optgroup class="bg-lgray text-white" label="Normal User">
                                 </optgroup> 
-                                <optgroup id="role-admin" class="bg-red text-white" label="Administrator">
+                                <optgroup class="bg-red text-white" label="Administrator">
                                 </optgroup>
                             </select>
                             <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="Name" id="name" name="name" required>
                         </div>
                         <div class="d-md-flex input-inline">
-                            <div class="input-box form-control w-50-md mb-3" id="account">Account</div>
+                            <div class="input-box form-control w-50-md mb-3 mr-2" id="account">Account</div>
                             <select class="input-box form-control w-50-md mb-3" id="class" name="class">
                             <option value="0" selected disabled hidden>Class</option>
-                                <option value="1">Penguin</option>
-                                <option value="2">Squirrel</option>
-                                <option value="3">Raccoon</option>
-                                <option value="4">Dolphin</option>
-                                <option value="5">Deer</option>
-                                <option value="6">Sheep</option>
-                                <option value="7">Koala</option>
-                                <option value="8">Kangaroo</option>
-                                <option value="9">Elephant</option>
-                                <option value="10">Rhino</option>
-                                <option value="11">Manta Ray</option>
-                                <option value="12">Wolf</option>
-                                <option value="13">None</option>
+                            <optgroup label="Preschool">
+                                        <option value="1">Penguin</option>
+                                        <option value="2">Squirrel</option>
+                                        <option value="3">Raccoon</option>
+                                    </optgroup>
+                                    <optgroup label="Pre-kindergarten">
+                                        <option value="4">Dolphin</option>
+                                        <option value="5">Deer</option>
+                                        <option value="6">Sheep</option>
+                                        <option value="7">Koala</option>
+                                    </optgroup>
+                                    <optgroup label="Kindergarten">
+                                        <option value="8">Kangaroo</option>
+                                        <option value="9">Elephant</option>
+                                        <option value="10">Rhino</option>
+                                        <option value="11">Manta Ray</option>
+                                        <option value="12">Wolf</option>
+                                    </optgroup>
+                                    <optgroup label="Other">
+                                        <option value="13">None</option>
+                                    </optgroup>
                             </select>
                         </div>
                         <div class="input-box form-control mb-3" id="mail">Email</div>
@@ -70,6 +78,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="../../dist/admin.js"></script>
+    <script src="../js/modifyuser.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
