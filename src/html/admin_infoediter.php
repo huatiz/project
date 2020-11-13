@@ -19,15 +19,15 @@
         <?php require 'component/lang.php';?>
 
         <div class="row justify-content-center">
-            <form action="" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
+            <form id="submit" class="row flex-column px-5 py-4 py-md-5 col-12 col-md-9 col-lg-9 wrapper__border bg-white">
                 <h3 class="text-gray mb-5"><span class="h1">編輯</span>個人資料</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
-                        <input class="input-box form-control w-50-md mb-3" type="text" placeholder="姓名" id="name" name="name" required>
+                        <input class="input-box form-control w-50-md mb-3" type="text" placeholder="姓名" id="name" required>
                         <div class="d-md-flex input-inline">
-                            <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" name="account" required>
-                            <select class="input-box form-control w-50-md mb-3" id="class" name="class">
-                            <option value="0" selected disabled hidden>班級</option>
+                            <input class="input-box form-control w-50-md mb-3 mr-2" type="text" placeholder="帳號" id="account" required>
+                            <select class="input-box form-control w-50-md mb-3" id="class" required>
+                            <option value="" selected disabled hidden>班級</option>
                                 <optgroup label="小班">
                                     <option value="1">小企鵝班</option>
                                     <option value="2">小松鼠班</option>
@@ -51,7 +51,7 @@
                                 </optgroup>
                             </select>
                         </div>
-                        <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" name="mail" required>
+                        <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" required>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon bg-red text-white rounded-circle text-center align-self-center">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit" id="submit">完成</button>
+                <button class="btn submit-btn btn-primary align-self-center mb-4" type="submit">完成</button>
             </form>
         </div>
     </div>

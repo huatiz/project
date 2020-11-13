@@ -19,13 +19,13 @@
         <?php require 'component/lang.php';?>
 
         <div class="row justify-content-center">
-            <form action="" id="submit" class="form-submit row flex-column px-5 py-4 py-md-5 col-12 col-md-9 wrapper__border bg-white">
+            <form id="submit" class="form-submit row flex-column px-5 py-4 py-md-5 col-12 col-md-9 wrapper__border bg-white">
                 <h3 class="text-gray mb-5"><span class="h1">修改</span>使用者</h3>
                 <div class="row justify-content-between mb-4">
                     <div class="col-12 col-md-7">
                         <div class="d-md-flex input-inline flex-wrap">
-                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" name="role" id="role">
-                                <option value="0" selected disabled hidden>使用者</option>
+                            <select class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" id="role" required>
+                                <option value="" selected disabled hidden>使用者</option>
                                 <optgroup class="bg-lgray text-white" label="一般使用者">
                                     <option value="1">阿韞</option>
                                     <option value="2">小白</option>
@@ -35,12 +35,12 @@
                                     <option value="4">江南</option>
                                 </optgroup>
                             </select>
-                            <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="姓名" id="name" name="name" required>
+                            <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="姓名" id="name" required>
                         </div>
                         <div class="d-md-flex input-inline">
                             <input class="input-box form-control w-50-md mb-3 mr-2" id="account" placeholder="帳號" readonly>
-                            <select class="input-box form-control w-50-md mb-3" id="class" name="class">
-                                <option value="0" selected disabled hidden>班級</option>
+                            <select class="input-box form-control w-50-md mb-3" id="class" required>
+                                <option value="" selected disabled hidden>班級</option>
                                 <optgroup label="小班">
                                     <option value="1">小企鵝班</option>
                                     <option value="2">小松鼠班</option>

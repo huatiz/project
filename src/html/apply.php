@@ -21,31 +21,31 @@
         <div class="row justify-content-center pb-5">
             <div class="col px-5 py-4 py-md-5 col-12 col-md-10 col-lg-8 wrapper__border bg-white">
                 <h3 class="text-gray mb-5 text-md-center"><span class="h1">申請</span>耗材</h3>
-                <form action="">
+                <form id="submit">
                     <div class="form-row mb-4">
                         <div class="col-md-6 mb-4">
-                            <select name="main-category" id="main-category" class="input-box form-control">
-                                <option value="0" selected disabled hidden>主分類</option>
+                            <select id="main-category" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>主分類</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
-                            <select name="sub-category" id="sub-category" class="input-box form-control">
-                                <option value="0" selected disabled hidden>次分類</option>
+                            <select id="sub-category" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>次分類</option>
                             </select>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <select name="item" id="item" class="input-box form-control">
-                                <option value="0" selected disabled hidden>品名</option>
+                            <select id="item" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>品名</option>
                             </select>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <select name="specification" id="specification" class="input-box form-control">
-                                <option value="0" selected disabled hidden>規格</option>
+                            <select id="specification" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>規格</option>
                             </select>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <select name="color" id="color" class="input-box form-control">
-                                <option value="0" selected disabled hidden>顏色</option>
+                            <select id="color" class="input-box form-control" required>
+                                <option value="" selected disabled hidden>顏色</option>
                                 <option>無</option>
                             </select>
                         </div>
@@ -63,18 +63,18 @@
                     <div class="form-row mb-md-4">
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">欲申請量：</h5>
-                            <input type="number" min="1" name="quantity" id="quantity" class="input-box form-control" required>
+                            <input type="number" min="1" id="quantity" class="input-box form-control" required>
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">欲申請日期：</h5>
-                            <input type="date" name="date" id="date" class="input-box form-control" required>
+                            <input type="date" id="date" class="input-box form-control" required>
                         </div>
                     </div>
                     <div class="form-row mb-md-4">
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">申請理由：</h5>
-                            <select name="reason" id="reason" class="input-box form-control">
-                                <option value="0" selected disabled hidden> </option>
+                            <select id="reason" class="input-box form-control" required>
+                                <option value="" selected disabled hidden> </option>
                                 <option value="1">其他</option>
                                 <option value="2">晨間活動</option>
                                 <option value="3">闖關布置</option>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">其他申請理由：</h5>
-                            <input type="text" name="reason" id="other-reason" class="input-box form-control">
+                            <input type="text" id="other-reason" class="input-box form-control">
                         </div>
                     </div>
                     <div class="pt-5">

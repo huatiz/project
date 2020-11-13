@@ -23,22 +23,22 @@
                 <h3 class="text-gray mb-5 text-md-center"><span class="h1">刪除</span>耗材</h3>
                 <form action="" class="pb-md-5">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>主分類</option>
+                        <select name="main-category" id="main-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>主分類</option>
                         </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>次分類</option>
+                        <select name="sub-category" id="sub-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>次分類</option>
                         </select>
                         <div class="col-12 px-0">
-                            <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>品名</option>
+                            <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>品名</option>
                             </select>
                         </div>
-                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>規格</option>
+                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>規格</option>
                         </select>
-                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>顏色</option>
+                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>顏色</option>
                             <option value="1">無</option>
                         </select>
                     </div>

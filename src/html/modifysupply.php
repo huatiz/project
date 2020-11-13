@@ -23,32 +23,32 @@
                 <h3 class="text-gray mb-5 text-md-center"><span class="h1">修改</span>耗材</h3>
                 <form action="">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>主分類</option>
+                        <select name="main-category" id="main-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>主分類</option>
                         </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4">
-                                <option value="0" selected disabled hidden>次分類</option>
+                        <select name="sub-category" id="sub-category" class="col-12 col-md-5 input-box form-control mb-4" required>
+                                <option value="" selected disabled hidden>次分類</option>
                         </select>
-                        <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>品名</option>
+                        <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>品名</option>
                         </select>
-                        <div name="brand" id="brand" class="col-12 col-md-5 input-box form-control mb-4"><span class="pl-1">廠商</span></div>
-                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>規格</option>
+                        <input id="brand" class="col-12 col-md-5 input-box form-control mb-4" placeholder="廠商" readonly>
+                        <select name="specification" id="specification" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>規格</option>
                         </select>
-                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4">
-                            <option value="0" selected disabled hidden>顏色</option>
+                        <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
+                            <option value="" selected disabled hidden>顏色</option>
                             <option value="1">無</option>
                         </select>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">數量：</label>
-                        <input type="number" min="0" name="modify_quantity" id="modify_quantity" class="input-box form-control col-8 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="modify-quantity" id="modify-quantity" class="input-box form-control col-8 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">預設申請上限：</label>
-                        <input type="number" min="0" name="applying_limit" id="applying_limit" class="input-box form-control col-5 mx-2" required>
+                        <input type="number" min="0" name="applying-limit" id="applying-limit" class="input-box form-control col-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
                     <div class="pt-5">

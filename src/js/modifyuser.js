@@ -18,8 +18,8 @@ function modifyuser() {
 
         name.value = $('#role option:selected').text();
         //抓好資料後改
-        account.innerText = '123456789';
-        mail.innerText = '123456789@gmail.com';
+        account.value = '123456789';
+        mail.value = '123456789@gmail.com';
 
     }, false);
 
