@@ -75,11 +75,11 @@
                             <select name="reason" id="reason" class="input-box form-control">
                                 <option value="0" selected disabled hidden> </option>
                                 <option value="1">Other</option>
-                                <option value="2">晨間活動</option>
-                                <option value="3">闖關布置</option>
-                                <option value="4">公共區域布置</option>
-                                <option value="5">節日布置</option>
-                                <option value="6">學習區耗材</option>
+                                <option value="2">Morning activity</option>
+                                <option value="3">Activity layouts</option>
+                                <option value="4">Public area layouts</option>
+                                <option value="5">Restival layouts</option>
+                                <option value="6">Study area layouts</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
