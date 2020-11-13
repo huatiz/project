@@ -26,8 +26,8 @@
                         <div class="d-flex input-inline flex-wrap-reverse flex-lg-nowrap">
                             <input class="input-box form-control w-50-md mb-3 col-12 col-lg-6 flex-basis-auto" type="text" placeholder="姓名" id="name" required>
                             <div class="mb-3 col-12 col-lg-6 px-0 pl-lg-3">
-                                <label class="mr-3"><input class="mr-2" type="radio" id="role_user">一般使用者</label>
-                                <label><input class="mr-2" type="radio" id="role_admin">管理員</label>
+                                <label class="mr-3"><input class="mr-2" type="radio" name="role" id="role_user">一般使用者</label>
+                                <label><input class="mr-2" type="radio" name="role" id="role_admin">管理員</label>
                             </div>
                         </div>
                         <div class="d-md-flex input-inline">
