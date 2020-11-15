@@ -34,6 +34,7 @@
                     <a class="dropdown-item py-2" href="createuser.php">新增使用者</a>
                     <a class="dropdown-item py-2" href="modifyuser.php">修改使用者</a>
                     <a class="dropdown-item py-2" href="deleteuser.php">刪除使用者</a>
+                    <a class="dropdown-item py-2" href="limit.php">借用上限</a>
                 </div>
             </li>
         </ul>

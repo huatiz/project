@@ -3,6 +3,7 @@ function modifyuser() {
     const role = document.querySelector('#role');
     const role_icon = document.querySelector('div.role-icon');
     const name = document.querySelector('#name');
+    const classes = document.querySelector('#class');
     const account = document.querySelector('#account');
     const mail = document.querySelector('#mail');
     const submit = document.querySelector('#submit');
@@ -18,6 +19,12 @@ function modifyuser() {
 
         name.value = $('#role option:selected').text();
         //抓好資料後改
+        let Class = "大魟魚班";
+        for (let i = 1; i < classes.options.length; i++) {
+            if (classes.options[i].innerText === Class) {
+                classes.options[i].selected = true;
+            }
+        }
         account.value = '123456789';
         mail.value = '123456789@gmail.com';
 

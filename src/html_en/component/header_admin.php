@@ -37,6 +37,7 @@
                     <a class="dropdown-item py-2" href="createuser.php">Create User</a>
                     <a class="dropdown-item py-2" href="modifyuser.php">Modify User</a>
                     <a class="dropdown-item py-2" href="deleteuser.php">Delete User</a>
+                    <a class="dropdown-item py-2" href="limit.php">Applying Limit</a>
                 </div>
             </li>
         </ul>

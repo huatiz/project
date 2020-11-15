@@ -1,3 +1,13 @@
+* {
+    list-style: none;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -327,4 +337,237 @@ a.text-hover-none:hover {
     left: -15px;
     top: 3px;
     color: #df3232;
+}
+
+
+/* ----------------------
+    sidebar
+-----------------------*/
+
+.supply {
+    position: relative;
+    height: 100%;
+}
+
+#side-menu-switch:checked+.supply .sidebar {
+    left: 0;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, .2);
+}
+
+.sidebar {
+    width: 300px;
+    padding: 0 15px;
+    overflow-y: auto;
+    height: 100%;
+    position: absolute;
+    left: -300px;
+    color: #364149;
+    border-top: 20px solid #ca4141;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 0 20px 20px 0;
+    background: #fff;
+    z-index: 1;
+    transition: left 250ms ease;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+    }
+    #side-menu-switch:checked+.supply .sidebar {
+        width: calc(100% - 60px);
+        left: 0;
+        z-index: 2000;
+    }
+    #side-menu-switch:checked+.supply label[for="side-menu-switch"] {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+/* .components {
+    overflow-y: overlay;
+} */
+
+.components ul {
+    padding-left: 20px;
+}
+
+.components li {
+    padding: 5px 0;
+}
+
+.components>li {
+    padding: 20px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.components label[data-toggle="collapse"] {
+    position: relative;
+    display: block;
+}
+
+.components .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.content-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: left 250ms ease;
+}
+
+
+/* ---------------------
+        table
+--------------------- */
+
+@media (min-width: 768px) {
+    #side-menu-switch:checked+.supply .content-wrapper {
+        left: 300px;
+        overflow-y: auto;
+    }
+    #side-menu-switch:checked+.supply .content {
+        max-width: 850px;
+    }
+}
+
+@media(min-width: 1400px) {
+    #side-menu-switch:checked+.supply .content {
+        max-width: 1140px;
+    }
+}
+
+.check-btn {
+    padding: 15px;
+    color: #aaa;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.check-btn:hover {
+    color: #444;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 15px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-style {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-header h3 {
+    padding: 5px 15px;
+}
+
+.table {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.table tbody tr:nth-child(even),
+.table thead {
+    background: #e5f2c9;
+}
+
+@media (max-width: 1100px) and (min-width: 768px) {
+    #side-menu-switch:checked+.supply .content {
+        max-width: 600px;
+    }
+    #side-menu-switch:checked+.supply .table {
+        text-align-last: left;
+        border-top: 2px solid #dee2e6;
+    }
+    #side-menu-switch:checked+.supply thead {
+        display: none;
+    }
+    #side-menu-switch:checked+.supply tr {
+        border-bottom: 2px solid #dee2e6;
+    }
+    #side-menu-switch:checked+.supply td {
+        display: block;
+        border: 0;
+        padding: .4rem .5rem;
+    }
+    #side-menu-switch:checked+.supply td:before {
+        content: attr(data-title);
+        display: inline-block;
+        width: auto;
+        min-width: 20%;
+        font-weight: 900;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        max-width: 600px;
+    }
+    .table {
+        text-align-last: left;
+        border-top: 2px solid #dee2e6;
+    }
+    .table thead {
+        display: none;
+    }
+    .table tr {
+        border-bottom: 2px solid #dee2e6;
+    }
+    .table td {
+        display: block;
+        border: 0;
+        padding: .4rem .5rem;
+    }
+    .table td:before {
+        content: attr(data-title);
+        display: inline-block;
+        width: auto;
+        min-width: 20%;
+        font-weight: 900;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .table-style {
+        border: 1px solid #dee2e6;
+    }
+    .table tbody tr:nth-child(odd) {
+        background: #fafafa;
+    }
+}
+
+.pagination {
+    align-self: center;
+}
+
+.page-item {
+    padding: 0 5px;
 }
