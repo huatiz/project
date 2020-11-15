@@ -374,11 +374,11 @@ a.text-hover-none:hover {
     .sidebar {
         position: fixed;
         top: 0;
+        z-index: 2000;
     }
     #side-menu-switch:checked+.supply .sidebar {
         width: calc(100% - 60px);
         left: 0;
-        z-index: 2000;
     }
     #side-menu-switch:checked+.supply label[for="side-menu-switch"] {
         position: fixed;
@@ -386,11 +386,6 @@ a.text-hover-none:hover {
         right: 0;
     }
 }
-
-
-/* .components {
-    overflow-y: overlay;
-} */
 
 .components ul {
     padding-left: 20px;
