@@ -487,9 +487,14 @@ a.text-hover-none:hover {
     margin-bottom: 0;
 }
 
-.table tbody tr:nth-child(even),
 .table thead {
-    background: #e5f2c9;
+    background: #795548d8;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #79554886;
+    color: #fff;
 }
 
 @media (max-width: 1100px) and (min-width: 768px) {
@@ -561,6 +566,7 @@ a.text-hover-none:hover {
 
 .pagination {
     align-self: center;
+    border-radius: 0;
 }
 
 .page-item {
