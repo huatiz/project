@@ -400,13 +400,14 @@ a.text-hover-none:hover {
     border-bottom: 1px solid #dee2e6;
 }
 
-.components label[data-toggle="collapse"] {
+.checkboxs {
     position: relative;
-    display: block;
+    margin-bottom: 8px;
+    cursor: default;
 }
 
 .components .dropdown-toggle::after {
-    display: block;
+    display: inline-block;
     position: absolute;
     top: 50%;
     right: 20px;
@@ -566,9 +567,25 @@ a.text-hover-none:hover {
 
 .pagination {
     align-self: center;
-    border-radius: 0;
 }
 
 .page-item {
     padding: 0 5px;
 }
+
+.page-link {
+    border-radius: .25rem;
+}
+
+.sidebar input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+    margin-right: .5rem;
+}
+
+
+/* .components label {
+    display: inline-block;
+} */
