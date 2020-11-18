@@ -18,17 +18,13 @@
     
     <input type="checkbox" class="hide" id="side-menu-switch">
     <div class="supply">
-        
+        <?php require 'component/select_day.php';?>
         <div class="content-wrapper">
-            <!-- <label for="side-menu-switch" class="pl-1 mb-0"><i class="fas fa-align-justify check-btn"></i></label> -->
+            <label for="side-menu-switch" class="pl-1 mb-0"><i class="fas fa-align-justify check-btn"></i></label>
             <div class="content">
                 <div class="table-style">
                     <div class="table-header">
                         <h3 class="text-gray"><span class="h2">進貨</span>明細</h3>
-                        <div class="d-flex">
-                            <input type="text" id="from" class="input-box form-control mr-3" placeholder="開始日期" required>
-                            <input type="text" id="to" class="input-box form-control" placeholder="結束日期" required>
-                        </div>
                     </div>
                     <table class="table">
                         <thead>
@@ -42,7 +38,6 @@
                                 <th>單位</th>
                                 <th>廠商</th>
                                 <th>數量</th>
-                                <th>剩餘量</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -56,7 +51,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還">√</td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -68,7 +62,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還">√</td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -80,7 +73,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -92,7 +84,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -104,7 +95,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -116,7 +106,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -128,7 +117,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -140,7 +128,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -152,7 +139,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                             <tr>
                                 <td data-title="主分類">美術用品</td>
@@ -164,7 +150,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                                 <td data-title="剩餘量">139</td>
-                                <td data-title="可歸還"></td>
                             </tr>
                         </tbody>
                     </table>

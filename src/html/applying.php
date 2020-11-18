@@ -39,7 +39,6 @@
                                 <th>顏色</th>
                                 <th>單位</th>
                                 <th>借用量</th>
-                                <th>剩餘量</th>
                             </tr>
                         </thead>
                         <tbody>

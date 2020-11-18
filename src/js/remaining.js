@@ -7,25 +7,28 @@ function check() {
             checkboxs[i].checked = all.checked;
     });
 
-    // 主分類全選
-    const mainCheck = document.querySelectorAll('.main-check');
-    for (let i = 0; i < mainCheck.length; i++) {
-        mainCheck[i].addEventListener('click', function(e) {
-            let checkboxs = document.querySelectorAll('ul[id="mainMenu' + (i + 1) + '"] input[type="checkbox"]');
-            for (let j = 0; j < checkboxs.length; j++)
-                checkboxs[j].checked = mainCheck[i].checked;
-        });
+    const allCheck = document.getElementsByClassName('components')[0]
+        .addEventListener('click', function(e) {
+            let subCheck = document.getElementsByName('subMenu');
+            for (let i = 0; i < subCheck.length; i++) {
+                let itemCheck = document.getElementsByName('item' + (i + 1));
+                subCheck[i].addEventListener('click', function(e) {
+                    // 次分類全選
+                    for (let j = 0; j < itemCheck.length; j++)
+                        itemCheck[j].checked = subCheck[i].checked;
+                });
+                let itemChecked_len = 0;
+                for (let j = 0; j < itemCheck.length; j++)
+                    if (itemCheck[j].checked)
+                        itemChecked_len++;
 
-        // 次分類全選
-        let subCheck = document.querySelectorAll('ul[id="mainMenu' + (i + 1) + '"] .sub-check');
-        for (let j = 0; j < subCheck.length; j++)
-            subCheck[j].addEventListener('click', function(e) {
-                let checkboxs = document.querySelectorAll('ul[id="subMenu' + (i + 1) + '-' + (j + 1) + '"] input[type="checkbox"]');
-                console.log(checkboxs);
-                for (let k = 0; k < checkboxs.length; k++)
-                    checkboxs[k].checked = subCheck[j].checked;
-            });
-    }
+                    // 品名控制次分類
+                if (itemChecked_len === itemCheck.length)
+                    subCheck[i].checked = true;
+                else
+                    subCheck[i].checked = false;
+            }
+        });
 }
 check();
 
