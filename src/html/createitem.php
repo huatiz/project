@@ -44,8 +44,8 @@
                         <div class="col-md-6 mb-4">
                             <select id="color-select" class="input-box form-control" required>
                                 <option value="" selected disabled hidden>顏色</option>
-                                <option value="1">無</option>
-                                <option value="2">其他</option>
+                                <option value="0">無</option>
+                                <option value="1">其他</option>
                             </select>
                         </div>
                     </div>
@@ -110,6 +110,7 @@
                             <div class="col-md-6 mb-4">
                                 <select id="specification-select" class="input-box form-control" required>
                                     <option value="" selected disabled hidden>規格</option>
+                                    <option value="0">無</option>
                                     <option value="1">其他</option>
                                     <option value="2">15*30</option>
                                 </select>

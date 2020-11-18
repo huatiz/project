@@ -44,8 +44,8 @@
                         <div class="col-md-6 mb-4">
                             <select id="color-select" class="input-box form-control" required>
                                 <option value="" selected disabled hidden>Color</option>
-                                <option value="1">None</option>
-                                <option value="2">Other</option>
+                                <option value="0">None</option>
+                                <option value="1">Other</option>
                             </select>
                         </div>
                     </div>
@@ -110,6 +110,7 @@
                             <div class="col-md-6 mb-4">
                                 <select id="specification-select" class="input-box form-control" required>
                                     <option value="" selected disabled hidden>Specification</option>
+                                    <option value="0">None</option>
                                     <option value="1">Other</option>
                                 </select>
                             </div>

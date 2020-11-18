@@ -38,7 +38,7 @@
                         </select>
                         <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
                             <option value="" selected disabled hidden>Color</option>
-                            <option value="1">None</option>
+                            <option value="0">None</option>
                         </select>
                     </div>
                     <div class="pt-5">

@@ -39,7 +39,7 @@
                         </select>
                         <select name="color" id="color" class="col-12 col-md-5 input-box form-control mb-4" required>
                             <option value="" selected disabled hidden>顏色</option>
-                            <option value="1">無</option>
+                            <option value="0">無</option>
                         </select>
                     </div>
                     <div class="pt-5">
