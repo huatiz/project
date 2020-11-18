@@ -98,12 +98,13 @@
                                     <option value="12">感恩節活動</option>
                                 </optgroup>
                                 <optgroup label="其他活動">
-                                    <option value="13">主題統整活動週</option>
-                                    <option value="14">寒令營活動</option>
-                                    <option value="15">夏令營活動</option>
-                                    <option value="16">開學活動</option>
-                                    <option value="17">教學觀摩</option>
-                                    <option value="18">畢業典禮</option>
+                                    <option value="13">招生說明會 / 優入說明會</option>
+                                    <option value="14">主題統整活動週</option>
+                                    <option value="15">寒令營活動</option>
+                                    <option value="16">夏令營活動</option>
+                                    <option value="17">開學活動</option>
+                                    <option value="18">教學觀摩</option>
+                                    <option value="19">畢業典禮</option>
                                 </optgroup>
                             </select>
                         </div>

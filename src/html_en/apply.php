@@ -76,13 +76,36 @@
                         <div class="col-md-6 mb-4">
                             <h5 class="mb-3">Applying Reason</h5>
                             <select id="reason" class="input-box form-control" required>
-                                <option value="" selected disabled hidden> </option>
-                                <option value="1">Other</option>
-                                <option value="2">Morning activity</option>
-                                <option value="3">Activity layouts</option>
-                                <option value="4">Public area layouts</option>
-                                <option value="5">Restival layouts</option>
-                                <option value="6">Study area</option>
+                            <option value="" selected disabled hidden> </option>
+                                <optgroup label="Others">
+                                    <option value="1">Others</option>
+                                </optgroup>
+                                <optgroup label="Show">
+                                    <option value="2">Final Show</option>
+                                </optgroup>
+                                <optgroup label="Layout">
+                                    <option value="3">Corner Layout</option>
+                                </optgroup>
+                                <optgroup label="Festival Activities">
+                                    <option value="4">New Year's Day Activity</option>
+                                    <option value="5">Lantern Festival Activity</option>
+                                    <option value="6">Children's Day Activity</option>
+                                    <option value="7">Earth Day Activity</option>
+                                    <option value="8">Dragon Boat Festival Activity</option>
+                                    <option value="9">Moon Festival Activity</option>
+                                    <option value="10">Double Tenth National Day Activity</option>
+                                    <option value="11">Halloween Activity</option>
+                                    <option value="12">Thanksgiving Activity</option>
+                                </optgroup>
+                                <optgroup label="Other Activities">
+                                    <option value="13"></option>
+                                    <option value="14">Theme Activity</option>
+                                    <option value="15">Winter Camp</option>
+                                    <option value="16">Summer Camp</option>
+                                    <option value="17">First Day of the Semester</option>
+                                    <option value="18">Open Day</option>
+                                    <option value="19">Commencement Ceremony</option>
+                                </optgroup>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
