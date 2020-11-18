@@ -15,7 +15,7 @@ function hide() {
     const specification_show = document.querySelector('.hide-specification');
     const unit_show = document.querySelector('.hide-unit');
     main_category_select.addEventListener('change', function(e) {
-        if (e.target.value === '0' || e.target.value === '1')
+        if (e.target.value === '1')
             sub_category_select.disabled = true;
         else
             sub_category_select.disabled = false;
@@ -32,7 +32,7 @@ function hide() {
     });
 
     sub_category_select.addEventListener('change', function(e) {
-        if (e.target.value === '0' || e.target.value === '1')
+        if (e.target.value === '1')
             item_select.disabled = true;
         else
             item_select.disabled = false;
@@ -58,7 +58,7 @@ function hide() {
         }
     });
     color_select.addEventListener('change', function(e) {
-        if (e.target.value === '2')
+        if (e.target.value === '1')
             color_show.classList.remove('hide');
         else
             color_show.classList.add('hide');

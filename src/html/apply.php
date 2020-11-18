@@ -77,12 +77,34 @@
                             <h5 class="mb-3">申請理由：</h5>
                             <select id="reason" class="input-box form-control" required>
                                 <option value="" selected disabled hidden> </option>
-                                <option value="1">其他</option>
-                                <option value="2">晨間活動</option>
-                                <option value="3">闖關布置</option>
-                                <option value="4">公共區域布置</option>
-                                <option value="5">節日布置</option>
-                                <option value="6">學習區耗材</option>
+                                <optgroup label="其他">
+                                    <option value="1">其他</option>
+                                </optgroup>
+                                <optgroup label="表演">
+                                    <option value="2">期末展演</option>
+                                </optgroup>
+                                <optgroup label="佈置">
+                                    <option value="3">角落佈置</option>
+                                </optgroup>
+                                <optgroup label="節日活動">
+                                    <option value="4">開國紀念日活動</option>
+                                    <option value="5">元宵節活動</option>
+                                    <option value="6">兒童節活動</option>
+                                    <option value="7">地球日活動</option>
+                                    <option value="8">端午節活動</option>
+                                    <option value="9">中秋節活動</option>
+                                    <option value="10">國慶日活動</option>
+                                    <option value="11">萬聖節活動</option>
+                                    <option value="12">感恩節活動</option>
+                                </optgroup>
+                                <optgroup label="其他活動">
+                                    <option value="13">主題統整活動週</option>
+                                    <option value="14">寒令營活動</option>
+                                    <option value="15">夏令營活動</option>
+                                    <option value="16">開學活動</option>
+                                    <option value="17">教學觀摩</option>
+                                    <option value="18">畢業典禮</option>
+                                </optgroup>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
