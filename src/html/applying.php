@@ -29,7 +29,7 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>日期</th>
+                                <th>申請日期</th>
                                 <th>班級</th>
                                 <th>借用者</th>
                                 <th>主分類</th>
@@ -39,6 +39,9 @@
                                 <th>顏色</th>
                                 <th>單位</th>
                                 <th>借用量</th>
+                                <th>申請理由</th>
+                                <th>領取狀態</th>
+                                <th>歸還狀態</th>
                             </tr>
                         </thead>
                         <tbody>

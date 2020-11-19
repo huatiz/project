@@ -21,7 +21,7 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th>日期</th>
+                                <th>申請日期</th>
                                 <th>主分類</th>
                                 <th>次分類</th>
                                 <th>品名</th>

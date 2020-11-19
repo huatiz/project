@@ -540,6 +540,13 @@ a.text-hover-none:hover {
     .table thead {
         display: none;
     }
+    #limit-table thead {
+        display: table-header-group;
+        text-align-last: center;
+    }
+    #limit-table tr th:not(:first-child) {
+        text-align-last: center;
+    }
     .table tr {
         border-bottom: 2px solid #dee2e6;
     }
@@ -623,4 +630,29 @@ a.text-hover-none:hover {
 .check-all:hover {
     cursor: pointer;
     background: #259ae9;
+}
+
+#limit-table tbody tr th:first-child {
+    text-align-last: left;
+}
+
+#limit-table i {
+    display: inline-block;
+}
+
+#limit-table .hide {
+    display: none;
+}
+
+#limit-table input {
+    width: 60px;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#limit-table input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
 }
