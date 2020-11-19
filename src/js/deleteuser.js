@@ -3,7 +3,6 @@ function deleteuser() {
     const role_icon = document.querySelector('div.role-icon');
     const classes = document.querySelector('#class');
     const account = document.querySelector('#account');
-    const mail = document.querySelector('#mail');
     const submit = document.querySelector('#submit');
     role.addEventListener('change', function(e) {
         let value = Number(e.target.value);
@@ -16,7 +15,6 @@ function deleteuser() {
         }
         account.value = '123456789';
         classes.value = '大魟魚班';
-        mail.value = '123456789@gmail.com';
     }, false);
 }
 deleteuser();

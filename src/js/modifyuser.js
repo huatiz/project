@@ -5,7 +5,6 @@ function modifyuser() {
     const name = document.querySelector('#name');
     const classes = document.querySelector('#class');
     const account = document.querySelector('#account');
-    const mail = document.querySelector('#mail');
     const submit = document.querySelector('#submit');
     role.addEventListener('change', function(e) {
         let value = Number(e.target.value);
@@ -26,8 +25,6 @@ function modifyuser() {
             }
         }
         account.value = '123456789';
-        mail.value = '123456789@gmail.com';
-
     }, false);
 
     submit.addEventListener('submit', function(e) {

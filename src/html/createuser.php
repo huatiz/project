@@ -57,7 +57,6 @@
                                 </optgroup>
                             </select>
                         </div>
-                        <input class="input-box form-control mb-3" type="email" placeholder="電子郵件" id="mail" required>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon text-white rounded-circle text-center align-self-center">

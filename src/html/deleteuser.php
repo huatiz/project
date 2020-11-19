@@ -40,7 +40,6 @@
                             <input class="input-box form-control w-50-md mb-3" id="account" placeholder="帳號" readonly>
                             <input class="input-box form-control w-50-md mb-3 mr-2" id="class" placeholder="班級" readonly>
                         </div>
-                        <input class="input-box form-control mb-3" id="mail" placeholder="電子郵件" readonly>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon text-white rounded-circle text-center align-self-center">

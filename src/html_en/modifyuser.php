@@ -59,7 +59,6 @@
                                     </optgroup>
                             </select>
                         </div>
-                        <input class="input-box form-control mb-3" id="mail" placeholder="Email" readonly>
                     </div>
                     <div class="col-md-5 row justify-content-center align-items-center p-0">
                         <div class="role-icon text-white rounded-circle text-center align-self-center">
