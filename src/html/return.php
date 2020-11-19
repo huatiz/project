@@ -34,7 +34,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><input type="checkbox"></td>
+                                <td data-title="已歸還"><input type="checkbox"></td>
                                 <td data-title="申請日期">2020/11/19</td>
                                 <td data-title="主分類">美術用品</td>
                                 <td data-title="次分類">書寫</td>
