@@ -17,17 +17,18 @@
     <div class="login wrapper fs-noto">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center">
-                <div class="col-12 col-md-8 col-lg-6 wrapper__border bg-white my-5 pb-5">
+                <div class="col-12 col-md-8 col-lg-5 wrapper__border bg-white my-5 pb-5">
                     <div class="items w-100">
-                        <h1 class="mb-4 text-center fs-en">Reset Password</h1>
-                        <form>
+                        <h1 class="py-3 mb-4 text-center">Reset Password</h1>
+                        <form action="">
                             <div class="form-group">
-                                <label for="passwd">Password</label>
-                                <input type="password" class="form-control bg-gray" id="passwd" name="passwd" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="passwd_confirm">Password Again</label>
-                                <input type="password" class="form-control bg-gray" id="passwd_confirm" name="passwd_confirm" required>
+                            <select class="input-box form-control" id="role" required>
+                                <option value="" selected disabled hidden>User</option>
+                                <optgroup class="bg-lgray text-white" label="Normal User">
+                                </optgroup> 
+                                <optgroup class="bg-red text-white" label="Administrator">
+                                </optgroup>
+                            </select>
                             </div>
                             <button type="submit" class="btn wrapper_btn w-100 bg-red text-white mt-5">Reset Password</button>
                         </form>
