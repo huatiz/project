@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
@@ -22,10 +22,10 @@
                         <select id="user" class="input-box form-control mr-3" required>
                             <option value="" selected disabled hidden>使用者</option>
                         </select>
-                        <select id="main-category" class="input-box form-control mr-3" required>
+                        <select id="main" class="input-box form-control mr-3" required>
                             <option value="" selected disabled hidden>主分類</option>
                         </select>
-                        <select id="sub-category" class="input-box form-control" required>
+                        <select id="sub" class="input-box form-control" required>
                             <option value="" selected disabled hidden>次分類</option>
                         </select>
                     </div>
@@ -43,16 +43,16 @@
                             <th>大三角鉛筆</th>
                             <th name="limit" data-value="0">15</th>
                             <th>
-                                <i class="fas fa-pen" type="button" data-value="0"></i>
-                                <i class="fas fa-save hide" type="button" data-value="0"></i>
+                                <i class="fas fa-pen" data-value="0"></i>
+                                <i class="fas fa-save hide" data-value="0"></i>
                             </th>
                         </tr>
                         <tr>
                             <th>大三角鉛筆大三角鉛筆</th>
                             <th name="limit" data-value="1">15</th>
                             <th>
-                                <i class="fas fa-pen" type="button" data-value="1"></i>
-                                <i class="fas fa-save hide" type="button" data-value="1"></i>
+                                <i class="fas fa-pen" data-value="1"></i>
+                                <i class="fas fa-save hide" data-value="1"></i>
                             </th>
                         </tr>
                     </tbody>

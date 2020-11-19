@@ -108,9 +108,9 @@
                                 </optgroup>
                             </select>
                         </div>
-                        <div class="col-md-6 mb-4">
+                        <div class="col-md-6 mb-4 hide" id="other-reason">
                             <h5 class="mb-3">其他申請理由：</h5>
-                            <input type="text" id="other-reason" class="input-box form-control">
+                            <input type="text" class="input-box form-control">
                         </div>
                     </div>
                     <div class="pt-5">
@@ -150,6 +150,7 @@
             });
         </script>
         <script src="../../dist/user_bound.js"></script>
+        <script src="../js/apply.js"></script>
 </body>
 
 </html>

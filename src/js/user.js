@@ -1,9 +1,7 @@
-function deleteuser() {
+function user() {
     const role = document.querySelector('#role');
     const role_icon = document.querySelector('div.role-icon');
-    const classes = document.querySelector('#class');
-    const account = document.querySelector('#account');
-    const submit = document.querySelector('#submit');
+    const name = document.querySelector('#name');
     role.addEventListener('change', function(e) {
         let value = Number(e.target.value);
         // 改頭像顏色
@@ -13,8 +11,8 @@ function deleteuser() {
             role_icon.classList.remove('bg-lgray');
             role_icon.classList.add('bg-red');
         }
-        account.value = '123456789';
-        classes.value = '大魟魚班';
+
+        name.value = $('#role option:selected').text();
     }, false);
 }
-deleteuser();
+user();

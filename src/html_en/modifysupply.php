@@ -22,10 +22,10 @@
                 <h3 class="text-gray mb-5 text-md-center fs-en"><span class="h1">Modify </span>Supply</h3>
                 <form action="">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <select name="main-category-select" id="main-category-select" class="col-12 col-md-5 input-box form-control mb-4" required>
+                        <select name="main" id="main" class="col-12 col-md-5 input-box form-control mb-4" required>
                                 <option value="" selected disabled hidden>Main Category</option>
                         </select>
-                        <select name="sub-category-select" id="sub-category-select" class="col-12 col-md-5 input-box form-control mb-4" required>
+                        <select name="sub" id="sub" class="col-12 col-md-5 input-box form-control mb-4" required>
                                 <option value="" selected disabled hidden>Sub Category</option>
                         </select>
                         <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>
@@ -42,12 +42,12 @@
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">Quantity:</label>
-                        <input type="number" min="0" name="modify-quantity" id="modify-quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="quantity" id="quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">Unit</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">Default Applying Limit:</label>
-                        <input type="number" min="0" name="applying-limit" id="applying-limit" class="input-box form-control col-3 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="def_limit" id="def_limit" class="input-box form-control col-3 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">Unit</label>
                     </div>
                     <div class="pt-5">
@@ -57,19 +57,10 @@
             </div>
         </div>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="../../dist/admin.js"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>

@@ -638,6 +638,7 @@ a.text-hover-none:hover {
 
 #limit-table i {
     display: inline-block;
+    cursor: pointer;
 }
 
 #limit-table .hide {

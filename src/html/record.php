@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,86 +52,6 @@
                                 <td data-title="廠商">百樂</td>
                                 <td data-title="總消耗">125</td>
                             </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
-                            <tr>
-                                <td data-title="主分類">美術用品</td>
-                                <td data-title="次分類">書寫</td>
-                                <td data-title="品名">大三角學習</td>
-                                <td data-title="規格">無</td>
-                                <td data-title="顏色">無</td>
-                                <td data-title="單位">支</td>
-                                <td data-title="廠商">百樂</td>
-                                <td data-title="總消耗">125</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -141,7 +61,6 @@
                         <a class="page-link" href="#">2</a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    
                 </ul>
             </div>
     </div>
