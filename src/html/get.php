@@ -46,6 +46,9 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div class="d-flex justify-content-center py-4">
+                        <button class="btn submit-btn btn-primary" type="submit">完成</button>
+                    </div>
                 </div>
             </div>
     </div>
