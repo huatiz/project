@@ -533,6 +533,10 @@ a.text-hover-none:hover {
     .content {
         max-width: 600px;
     }
+    .table-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .table {
         text-align-last: left;
         border-top: 2px solid #dee2e6;
