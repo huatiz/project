@@ -53,7 +53,6 @@
             </li>
         </ul>
     </div>
-
     <div class="nav-item dropdown user-list-lg">
         <button class="user-btn bg-red text-white rounded-circle user-btn-lg" data-toggle="dropdown"><i class="fas fa-user"></i></button>
         <div class="dropdown-menu">

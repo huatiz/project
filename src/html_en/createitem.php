@@ -32,20 +32,20 @@
                         <div class="col-md-6 mb-4">
                             <select id="sub-category-select" class="input-box form-control" disabled required>
                                 <option value="" selected disabled hidden>Sub Category</option>
-                                <option value="1">Other</option>
+                                <option value="1">Others</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
                             <select id="item-select" class="input-box form-control" disabled required>
                                 <option value="" selected disabled hidden>Item</option>
-                                <option value="1">Other</option>
+                                <option value="1">Others</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
                             <select id="color-select" class="input-box form-control" required>
                                 <option value="" selected disabled hidden>Color</option>
                                 <option value="0">None</option>
-                                <option value="1">Other</option>
+                                <option value="1">Others</option>
                             </select>
                         </div>
                     </div>
@@ -111,13 +111,13 @@
                                 <select id="specification-select" class="input-box form-control" required>
                                     <option value="" selected disabled hidden>Specification</option>
                                     <option value="0">None</option>
-                                    <option value="1">Other</option>
+                                    <option value="1">Others</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-4">
                                 <select id="unit-select" class="input-box form-control" required>
                                     <option value="" selected disabled hidden>Unit</option>
-                                    <option value="1">Other</option>
+                                    <option value="1">Others</option>
                                 </select>
                             </div>
                             <div class="col-md-6 mb-4 hide hide-specification">

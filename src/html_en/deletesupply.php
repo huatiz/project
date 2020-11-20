@@ -23,10 +23,10 @@
                 <form action="" class="pb-md-5">
                     <div class="d-flex justify-content-between flex-wrap">
                         <select name="main" id="main" class="col-12 col-md-5 input-box form-control mb-4" required>
-                                <option value="" selected disabled hidden>Main Category</option>
+                            <option value="" selected disabled hidden>Main Category</option>
                         </select>
                         <select name="sub" id="sub" class="col-12 col-md-5 input-box form-control mb-4" required>
-                                <option value="" selected disabled hidden>Sub Category</option>
+                            <option value="" selected disabled hidden>Sub Category</option>
                         </select>
                         <div class="col-12 px-0">
                             <select name="item" id="item" class="col-12 col-md-5 input-box form-control mb-4" required>

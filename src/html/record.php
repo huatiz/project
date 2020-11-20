@@ -13,11 +13,12 @@
         <?php require 'component/header_user.php';?>
         <?php require 'component/lang.php';?>
 
-            <div class="content">
-                <div class="table-style">
-                    <div class="table-header">
-                        <h3 class="text-gray"><span class="h2">歷史</span>紀錄</h3>
-                    </div>
+        <div class="content">
+            <div class="table-style">
+                <div class="table-header">
+                    <h3 class="text-gray"><span class="h2">歷史</span>紀錄</h3>
+                </div>
+                <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
@@ -55,14 +56,15 @@
                         </tbody>
                     </table>
                 </div>
-                <ul class="pagination pt-3">
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                </ul>
             </div>
+            <ul class="pagination pt-3">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+            </ul>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -30,39 +30,40 @@
                         </select>
                     </div>
                 </div>
-                <table class="table" id="limit-table">
-                    <thead>
-                        <tr>
-                            <th>品名</th>
-                            <th>借用上限</th>
-                            <th>操作</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>大三角鉛筆</th>
-                            <th name="limit" data-value="0">15</th>
-                            <th>
-                                <i class="fas fa-pen" data-value="0"></i>
-                                <i class="fas fa-save hide" data-value="0"></i>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th>大三角鉛筆大三角鉛筆</th>
-                            <th name="limit" data-value="1">15</th>
-                            <th>
-                                <i class="fas fa-pen" data-value="1"></i>
-                                <i class="fas fa-save hide" data-value="1"></i>
-                            </th>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table class="table" id="limit-table">
+                        <thead>
+                            <tr>
+                                <th>品名</th>
+                                <th>借用上限</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>大三角鉛筆</th>
+                                <th name="limit" data-value="0">15</th>
+                                <th>
+                                    <i class="fas fa-pen" data-value="0"></i>
+                                    <i class="fas fa-save hide" data-value="0"></i>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>大三角鉛筆大三角鉛筆</th>
+                                <th name="limit" data-value="1">15</th>
+                                <th>
+                                    <i class="fas fa-pen" data-value="1"></i>
+                                    <i class="fas fa-save hide" data-value="1"></i>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <div class="d-flex justify-content-center py-4">
                     <button class="btn submit-btn btn-primary" type="submit">完成</button>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

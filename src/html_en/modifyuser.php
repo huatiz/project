@@ -35,28 +35,28 @@
                         <div class="d-md-flex input-inline">
                             <input class="input-box form-control w-50-md mb-3 mr-2" id="account" placeholder="Account" readonly>
                             <select class="input-box form-control w-50-md mb-3" id="class" required>
-                            <option value="" selected disabled hidden>Class</option>
-                            <optgroup label="Preschool">
-                                        <option value="1">Penguin</option>
-                                        <option value="2">Squirrel</option>
-                                        <option value="3">Raccoon</option>
-                                    </optgroup>
-                                    <optgroup label="Pre-kindergarten">
-                                        <option value="4">Dolphin</option>
-                                        <option value="5">Deer</option>
-                                        <option value="6">Sheep</option>
-                                        <option value="7">Koala</option>
-                                    </optgroup>
-                                    <optgroup label="Kindergarten">
-                                        <option value="8">Kangaroo</option>
-                                        <option value="9">Elephant</option>
-                                        <option value="10">Rhino</option>
-                                        <option value="11">Manta Ray</option>
-                                        <option value="12">Wolf</option>
-                                    </optgroup>
-                                    <optgroup label="Other">
-                                        <option value="13">None</option>
-                                    </optgroup>
+                                <option value="" selected disabled hidden>Class</option>
+                                <optgroup label="Preschool">
+                                    <option value="1">Penguin</option>
+                                    <option value="2">Squirrel</option>
+                                    <option value="3">Raccoon</option>
+                                </optgroup>
+                                <optgroup label="Pre-kindergarten">
+                                    <option value="4">Dolphin</option>
+                                    <option value="5">Deer</option>
+                                    <option value="6">Sheep</option>
+                                    <option value="7">Koala</option>
+                                </optgroup>
+                                <optgroup label="Kindergarten">
+                                    <option value="8">Kangaroo</option>
+                                    <option value="9">Elephant</option>
+                                    <option value="10">Rhino</option>
+                                    <option value="11">Manta Ray</option>
+                                    <option value="12">Wolf</option>
+                                </optgroup>
+                                <optgroup label="Other">
+                                    <option value="13">None</option>
+                                </optgroup>
                             </select>
                         </div>
                     </div>

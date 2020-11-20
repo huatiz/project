@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="../css/datepicker.css">
-    <title>進貨明細</title>
+    <title>Purchase Details</title>
 </head>
 <body>
-    <div class="container px-0">
+    <div class="container px-0 fs-noto">
         <?php require 'component/header_admin.php';?>
         <?php require 'component/lang.php';?>
     </div>
@@ -24,21 +24,21 @@
             <div class="content">
                 <div class="table-style">
                     <div class="table-header">
-                        <h3 class="text-gray"><span class="h2">進貨</span>明細</h3>
+                        <h3 class="text-gray fs-en"><span class="h2">Purchase </span>Details</h3>
                     </div>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>進貨日期</th>
-                                    <th>主分類</th>
-                                    <th>次分類</th>
-                                    <th>品名</th>
-                                    <th>規格</th>
-                                    <th>顏色</th>
-                                    <th>單位</th>
-                                    <th>廠商</th>
-                                    <th>數量</th>
+                                    <th>Date</th>
+                                    <th>Main Category</th>
+                                    <th>Sub Category</th>
+                                    <th>Item</th>
+                                    <th>Specification</th>
+                                    <th>Color</th>
+                                    <th>Unit</th>
+                                    <th>Brand</th>
+                                    <th>Purchase Quantity</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -61,28 +61,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript">
             $(function(){
-                $.datepicker.regional['zh-TW'] = {
-                    clearText: '清除', clearStatus: '清除已選日期',
-                    closeText: '關閉', closeStatus: '取消選擇',
-                    prevText: '<上一月', prevStatus: '顯示上個月',
-                    nextText: '下一月>', nextStatus: '顯示下個月',
-                    currentText: '今天', currentStatus: '顯示本月',
-                    monthNames: ['1月','2月','3月','4月','5月','6月',
-                    '7月','8月','9月','10月','11月','12月'],
-                    monthNamesShort: ['一','二','三','四','五','六',
-                    '七','八','九','十','十一','十二'],
-                    monthStatus: '選擇月份', yearStatus: '選擇年份',
-                    weekHeader: '周', weekStatus: '',
-                    dayNames: ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'],
-                    dayNamesShort: ['周日','周一','周二','周三','周四','周五','周六'],
-                    dayNamesMin: ['日','一','二','三','四','五','六'],
-                    dayStatus: '設定每周第一天', dateStatus: '選擇 m月 d日, DD',
-                    dateFormat: 'yy/mm/dd', firstDay: 7, 
-                    initStatus: '請選擇日期', isRTL: false
-                };
                 $("#from").datepicker();
                 $("#to").datepicker();
-                $.datepicker.setDefaults($.datepicker.regional['zh-TW']);
             });
     </script>
     <script src="../../dist/admin.js"></script>

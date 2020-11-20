@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <title>耗材剩餘</title>
+    <title>Remaining Supplies</title>
 </head>
 <body>
-    <div class="container px-0">
+    <div class="container px-0 fs-noto">
         <?php require 'component/header_admin.php';?>
         <?php require 'component/lang.php';?>
     </div>
@@ -22,23 +22,23 @@
             <div class="content">
                 <div class="table-style">
                     <div class="table-header">
-                    <h3 class="text-gray"><span class="h2">耗材</span>剩餘</h3>
-                        <a href="#" class="text-blue">輸出耗材總表</a>
+                    <h3 class="text-gray fs-en"><span class="h2">Remaining </span>Supplies</h3>
+                        <a href="#" class="text-blue text-center fs-noto">Export Supplies Table</a>
                     </div>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th>主分類</th>
-                                    <th>次分類</th>
-                                    <th>品名</th>
-                                    <th>規格</th>
-                                    <th>顏色</th>
-                                    <th>單位</th>
-                                    <th>廠商</th>
-                                    <th>總消耗</th>
-                                    <th>剩餘量</th>
-                                    <th>可歸還</th>
+                                    <th>Main Category</th>
+                                    <th>Sub Category</th>
+                                    <th>Item</th>
+                                    <th>Specification</th>
+                                    <th>Color</th>
+                                    <th>Unit</th>
+                                    <th>Brand</th>
+                                    <th>Consumption</th>
+                                    <th>Remaining</th>
+                                    <th>Returnable</th>
                                 </tr>
                             </thead>
                             <tbody>

@@ -98,7 +98,7 @@
                                     <option value="12">Thanksgiving Activity</option>
                                 </optgroup>
                                 <optgroup label="Other Activities">
-                                    <option value="13"></option>
+                                    <option value="13">Information Session</option>
                                     <option value="14">Theme Activity</option>
                                     <option value="15">Winter Camp</option>
                                     <option value="16">Summer Camp</option>

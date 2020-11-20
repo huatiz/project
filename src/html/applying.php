@@ -26,27 +26,29 @@
                     <div class="table-header">
                         <h3 class="text-gray"><span class="h2">借用</span>明細</h3>
                     </div>
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>申請日期</th>
-                                <th>班級</th>
-                                <th>借用者</th>
-                                <th>主分類</th>
-                                <th>次分類</th>
-                                <th>品名</th>
-                                <th>規格</th>
-                                <th>顏色</th>
-                                <th>單位</th>
-                                <th>借用量</th>
-                                <th>申請理由</th>
-                                <th>領取狀態</th>
-                                <th>歸還狀態</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>申請日期</th>
+                                    <th>班級</th>
+                                    <th>借用者</th>
+                                    <th>主分類</th>
+                                    <th>次分類</th>
+                                    <th>品名</th>
+                                    <th>規格</th>
+                                    <th>顏色</th>
+                                    <th>單位</th>
+                                    <th>借用量</th>
+                                    <th>申請理由</th>
+                                    <th>領取狀態</th>
+                                    <th>歸還狀態</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <ul class="pagination pt-3">
                     <li class="page-item"><a class="page-link" href="#">1</a></li>

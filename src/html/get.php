@@ -13,11 +13,12 @@
         <?php require 'component/header_user.php';?>
         <?php require 'component/lang.php';?>
 
-            <div class="content">
-                <div class="table-style">
-                    <div class="table-header">
-                        <h3 class="text-gray"><span class="h2">領取</span>耗材</h3>
-                    </div>
+        <div class="content">
+            <div class="table-style">
+                <div class="table-header">
+                    <h3 class="text-gray"><span class="h2">領取</span>耗材</h3>
+                </div>
+                <div class="table-responsive">
                     <table class="table">
                         <thead>
                             <tr>
@@ -46,11 +47,12 @@
                             </tr>
                         </tbody>
                     </table>
-                    <div class="d-flex justify-content-center py-4">
-                        <button class="btn submit-btn btn-primary" type="submit">完成</button>
-                    </div>
+                </div>
+                <div class="d-flex justify-content-center py-4">
+                    <button class="btn submit-btn btn-primary" type="submit">完成</button>
                 </div>
             </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

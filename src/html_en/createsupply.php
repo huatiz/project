@@ -19,7 +19,7 @@
         <?php require 'component/lang.php';?>
         <div class="row justify-content-center pb-5">
             <div class="col px-5 py-4 py-md-5 col-12 col-md-8 col-lg-6 wrapper__border bg-white">
-                <h3 class="text-gray mb-5 text-md-center"><span class="h1 fs-en">Create </span>Supply</h3>
+                <h3 class="text-gray mb-5 text-md-center fs-en"><span class="h1">Create </span>Supply</h3>
                 <form action="">
                     <div class="d-flex justify-content-between flex-wrap">
                         <select name="main" id="main" class="col-12 col-md-5 input-box form-control mb-4" required>

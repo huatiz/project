@@ -22,13 +22,13 @@
                         <h1 class="py-3 mb-4 text-center">Reset Password</h1>
                         <form action="">
                             <div class="form-group">
-                            <select class="input-box form-control" id="role" required>
-                                <option value="" selected disabled hidden>User</option>
-                                <optgroup class="bg-lgray text-white" label="Normal User">
-                                </optgroup> 
-                                <optgroup class="bg-red text-white" label="Administrator">
-                                </optgroup>
-                            </select>
+                                <select class="input-box form-control" id="role" required>
+                                    <option value="" selected disabled hidden>User</option>
+                                    <optgroup class="bg-lgray text-white" label="Normal User">
+                                    </optgroup> 
+                                    <optgroup class="bg-red text-white" label="Administrator">
+                                    </optgroup>
+                                </select>
                             </div>
                             <button type="submit" class="btn wrapper_btn w-100 bg-red text-white mt-5">Reset Password</button>
                         </form>
