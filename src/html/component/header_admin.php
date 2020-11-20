@@ -64,4 +64,4 @@
     </div>
 </nav>
 
-<script src="../js/nav_admin.js"></script>
+<script src="../js/nav.js"></script>
