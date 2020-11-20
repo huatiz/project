@@ -5,11 +5,11 @@
     </a>
 </header>
 <nav class="navbar navbar-expand-lg navbar-light bg-white px-5 main-nav sticky-top mb-6 admin">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerNav" aria-controls="navbarTogglerNav" aria-expanded="false" aria-label="Toggle navigation" id="btn-nav">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <button class="navbar-toggler user-btn bg-red text-white rounded-circle" type="button" data-toggle="collapse" data-target="#navbarTogglerUser" aria-controls="navbarTogglerUser" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler user-btn bg-red text-white rounded-circle" type="button" data-toggle="collapse" data-target="#navbarTogglerUser" aria-controls="navbarTogglerUser" aria-expanded="false" aria-label="Toggle navigation" id="btn-user">
         <i class="fas fa-user"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerNav">
@@ -67,3 +67,5 @@
         </div>
     </div>
 </nav>
+
+<script src="../js/nav_admin.js"></script>

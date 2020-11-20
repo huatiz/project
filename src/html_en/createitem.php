@@ -26,7 +26,7 @@
                         <div class="col-md-6 mb-4">
                             <select id="main-category-select" class="input-box form-control" required>
                                 <option value="" selected disabled hidden>Main Category</option>
-                                <option value="1">Other</option>
+                                <option value="1">Others</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-4">
