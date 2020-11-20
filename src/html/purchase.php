@@ -16,7 +16,7 @@
         <?php require 'component/lang.php';?>
     </div>
     
-    <input type="checkbox" class="hide" id="side-menu-switch">
+    <input type="checkbox" class="hide" id="side-menu-switch" checked>
     <div class="supply">
         <?php require 'component/select_day.php';?>
         <div class="content-wrapper">
@@ -75,7 +75,7 @@
                     dayNamesShort: ['周日','周一','周二','周三','周四','周五','周六'],
                     dayNamesMin: ['日','一','二','三','四','五','六'],
                     dayStatus: '設定每周第一天', dateStatus: '選擇 m月 d日, DD',
-                    dateFormat: 'yy 年 mm 月 dd 日', firstDay: 7, 
+                    dateFormat: 'yy/mm/dd', firstDay: 7, 
                     initStatus: '請選擇日期', isRTL: false
                 };
                 $("#from").datepicker();

@@ -14,7 +14,7 @@
         <?php require 'component/lang.php';?>
     </div>
     
-    <input type="checkbox" class="hide" id="side-menu-switch">
+    <input type="checkbox" class="hide" id="side-menu-switch" checked>
     <div class="supply">
         <?php require 'component/select.php';?>
         <div class="content-wrapper">
