@@ -19,7 +19,7 @@
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="col-12 col-md-8 col-lg-5 wrapper__border bg-white my-5 pb-5">
                     <div class="items w-100">
-                        <h1 class="py-3 mb-4 text-center">Reset Password</h1>
+                        <h1 class="py-3 mb-4 text-center fs-en">Reset Password</h1>
                         <form action="">
                             <div class="form-group">
                                 <select class="input-box form-control" id="role" required>
