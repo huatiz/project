@@ -18,7 +18,7 @@
                 <a class="nav-link" href="apply.php" role="button">Apply Supplies</a>
             </li>
             <li class="nav-item mr-5">
-                <a class="nav-link" href="get.php" role="button">GetSupplies</a>
+                <a class="nav-link" href="get.php" role="button">Get Supplies</a>
             </li>
             <li class="nav-item mr-5">
                 <a class="nav-link" href="return.php" role="button">Return Supplies</a>
