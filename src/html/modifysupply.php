@@ -43,12 +43,12 @@
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">數量：</label>
-                        <input type="number" min="0" name="quantity" id="quantity" class="input-box form-control col-8 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="quantity" id="quantity" class="input-box form-control col-4 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">預設申請上限：</label>
-                        <input type="number" min="0" name="def_limit" id="def_limit" class="input-box form-control col-5 mx-2" required>
+                        <input type="number" min="0" name="def_limit" id="def_limit" class="input-box form-control col-4 mx-2" required>
                         <label class="col-form-label fs-noto unit">單位</label>
                     </div>
                     <div class="pt-5">

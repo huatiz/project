@@ -42,7 +42,7 @@
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
                         <label class="col-form-label">Quantity:</label>
-                        <input type="number" min="0" name="quantity" id="quantity" class="input-box form-control col-7 col-md-5 mx-2" required>
+                        <input type="number" min="0" name="quantity" id="quantity" class="input-box form-control col-3 col-md-5 mx-2" required>
                         <label class="col-form-label fs-noto unit">Unit</label>
                     </div>
                     <div class="d-flex justify-content-md-center mb-4">
