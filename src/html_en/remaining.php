@@ -22,7 +22,7 @@
             <div class="content">
                 <div class="table-style">
                     <div class="table-header">
-                    <h3 class="text-gray fs-en"><span class="h2">Remaining </span>Supplies</h3>
+                    <h3 class="text-gray fs-en"><span class="h1">Remaining </span>Supplies</h3>
                         <a href="#" class="text-blue text-center fs-noto">Export Supplies Table</a>
                     </div>
                     <div class="table-responsive">
