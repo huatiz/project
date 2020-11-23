@@ -1,5 +1,5 @@
 <header class="pt-4 mx-2">
-    <a href="index.php" class="text-black d-block text-center text-hover-none mb-3 fs-en">
+    <a href="apply.php" class="text-black d-block text-center text-hover-none mb-3 fs-en">
         <h3 class="h6">Kang Chiao International School Preschool (Linkou Campus)</h3>
         <h1>Supplies Management System</h1>
     </a>
